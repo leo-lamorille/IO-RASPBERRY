@@ -1,0 +1,72 @@
+version: '3.7'
+networks:
+  rpi:
+    driver: bridge
+    ipam:
+     config:
+       - subnet: 10.5.0.0/16
+         gateway: 10.5.0.1
+
+services:
+  mqtt:
+    image: eclipse-mosquitto
+    container_name: mqtt
+    restart: always
+    ports:
+      - 1883:1883
+      - 9001:9001
+    volumes:
+      - ./mosquitto/:/mosquitto/:rw
+      - ./mosquitto/log:/mosquitto/log
+    environment:
+      - TZ=Europe/Paris
+    networks:
+      rpi:
+        ipv4_address: 10.5.0.10
+
+  mongodb:
+    image: mongo
+    container_name: mongodb
+    restart: unless-stopped
+    networks:
+      rpi:
+        ipv4_address: 10.5.0.2
+    volumes:
+      - ./mongodb/data:/data/db
+      - ./mongodb/config:/data/configdb
+    ports:
+      - 27017:27017
+    
+
+  python:
+    image: python:3.10.7-alpine
+    container_name: python
+    restart: unless-stopped
+    networks:
+      rpi:
+        ipv4_address: 10.5.0.3
+    working_dir: /app
+    volumes:
+      - ./python:/app
+    command: sh ./start.sh
+    depends_on:
+      - mongodb
+      - mqtt
+
+  django:
+    image: python:3.10
+    container_name: django
+    restart: unless-stopped
+    working_dir: /django
+    volumes:
+      - ./django:/django
+    environment:
+      - TZ=Europe/Paris
+    depends_on:
+      - mongodb
+    ports:
+      - 8000:8000
+    command: sh ./start.sh
+    networks:
+      rpi:
+        ipv4_address: 10.5.0.4

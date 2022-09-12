@@ -1,0 +1,31 @@
+db.data.find()
+show collections
+db.sensors.find()
+db.sensor.find()
+use sensor
+db.datas.find()
+show collections
+use sensor
+show dbs
+use local
+db.dropDatabase()
+use sensor
+db.datas.find()
+show collections
+use sensor
+show dbs
+use lol
+show dbs
+use local
+db.dropDatabase()
+db.dropDatabse()
+use objCo
+show dbs
+delete objCo
+remove
+help
+use local
+db.users.find()
+show collections
+use objCo
+show dbs

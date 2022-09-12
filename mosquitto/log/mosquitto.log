@@ -1,0 +1,24 @@
+1662709069: mosquitto version 2.0.15 starting
+1662709069: Config loaded from /mosquitto/config/mosquitto.conf.
+1662709069: Opening ipv4 listen socket on port 1884.
+1662709069: Opening ipv6 listen socket on port 1884.
+1662709069: mosquitto version 2.0.15 running
+1662709117: mosquitto version 2.0.15 terminating
+1662709117: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1662709208: mosquitto version 2.0.15 starting
+1662709208: Config loaded from /mosquitto/config/mosquitto.conf.
+1662709208: Opening ipv4 listen socket on port 1883.
+1662709208: Opening ipv6 listen socket on port 1883.
+1662709208: mosquitto version 2.0.15 running
+1662709237: New connection from 10.5.0.3:60865 on port 1883.
+1662709237: New client connected from 10.5.0.3:60865 as P1 (p2, c1, k60).
+1662709241: Client P1 closed its connection.
+1662711007: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1662712807: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1662714606: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1662716406: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1662718206: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1662720005: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1662721805: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1662723066: mosquitto version 2.0.15 terminating
+1662723066: Saving in-memory database to /mosquitto/data//mosquitto.db.
