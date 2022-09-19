@@ -19,4 +19,5 @@ from dashboard import views
 urlpatterns = [
     path('admin/', views.admin),
     path('dashboard/', views.dashboard),
+    path('test/', views.test)
 ]
