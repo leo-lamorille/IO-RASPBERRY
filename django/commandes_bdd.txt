@@ -1,0 +1,5 @@
+Doc utilse pour utilisation des models : 
+https://zestedesavoir.com/tutoriels/598/developpez-votre-site-web-avec-le-framework-django/263_premiers-pas/1522_les-modeles/
+
+python manage.py makemigrations dashboard
+python manage.py migrate dashboard
