@@ -1,14 +1,15 @@
 <!DOCTYPE html>
+{% load static %}
 <html>
 <head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Dashboard</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='dashboard.css'>
-    <script src='main.js'></script>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>Dashboard</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel="shortcut icon" href="{% static 'favicon.ico' %}">
+  <link rel='stylesheet' type='text/css' media='screen' href="{% static 'css/dashboard.css' %}">
 </head>
 <body>
-    <h1>Dashboard is working!</h1>
+<h1>Dashboard is working!</h1>
 </body>
 </html>
