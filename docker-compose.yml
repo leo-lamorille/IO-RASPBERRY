@@ -5,7 +5,8 @@ networks:
     ipam:
      config:
        - subnet: 10.5.0.0/16
-         gateway: 10.5.0.1
+volumes:
+  mariadb_data:
 
 services:
   mqtt:
@@ -23,19 +24,6 @@ services:
     networks:
       rpi:
         ipv4_address: 10.5.0.10
-
-  mongodb:
-    image: mongo
-    container_name: mongodb
-    restart: unless-stopped
-    networks:
-      rpi:
-        ipv4_address: 10.5.0.2
-    volumes:
-      - ./mongodb/data:/data/db
-      - ./mongodb/config:/data/configdb
-    ports:
-      - 27017:27017
     
 
   python:
@@ -50,7 +38,7 @@ services:
       - ./python:/app
     command: sh ./start.sh
     depends_on:
-      - mongodb
+      - mariadb
       - mqtt
 
   django:
@@ -63,10 +51,25 @@ services:
     environment:
       - TZ=Europe/Paris
     depends_on:
-      - mongodb
+      - mariadb
     ports:
       - 8000:8000
     command: sh ./start.sh
     networks:
       rpi:
         ipv4_address: 10.5.0.4
+  
+  mariadb:
+    image: mariadb
+    environment:
+      - MYSQL_ROOT_PASSWORD=mariadb
+      - MYSQL_DATABASE=mariadb
+      - MYSQL_USER=mariadb
+      - MYSQL_PASSWORD=mariadb
+    volumes:
+      - mariadb_data:/var/lib/mysql
+    ports:
+      - "3308:3306"
+    networks:
+      rpi:
+        ipv4_address: 10.5.0.2

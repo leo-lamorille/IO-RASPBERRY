@@ -22,3 +22,2004 @@
 1662721805: Saving in-memory database to /mosquitto/data//mosquitto.db.
 1662723066: mosquitto version 2.0.15 terminating
 1662723066: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1662984004: mosquitto version 2.0.15 starting
+1662984004: Config loaded from /mosquitto/config/mosquitto.conf.
+1662984004: Opening ipv4 listen socket on port 1883.
+1662984004: Opening ipv6 listen socket on port 1883.
+1662984004: mosquitto version 2.0.15 running
+1662984039: mosquitto version 2.0.15 terminating
+1662984039: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1662984050: mosquitto version 2.0.15 starting
+1662984050: Config loaded from /mosquitto/config/mosquitto.conf.
+1662984050: Opening ipv4 listen socket on port 1883.
+1662984050: Opening ipv6 listen socket on port 1883.
+1662984050: mosquitto version 2.0.15 running
+1662985874: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1662987674: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1662988271: New connection from 10.5.0.3:37859 on port 1883.
+1662988271: New client connected from 10.5.0.3:37859 as P1 (p2, c1, k60).
+1662988271: Client P1 closed its connection.
+1662988289: New connection from 10.5.0.3:57171 on port 1883.
+1662988289: New client connected from 10.5.0.3:57171 as P1 (p2, c1, k60).
+1662989130: Client P1 closed its connection.
+1662989131: New connection from 10.5.0.3:50857 on port 1883.
+1662989131: New client connected from 10.5.0.3:50857 as P1 (p2, c1, k60).
+1662989132: New connection from 10.5.0.3:56607 on port 1883.
+1662989132: Client P1 already connected, closing old connection.
+1662989132: New client connected from 10.5.0.3:56607 as P1 (p2, c1, k60).
+1662989174: New connection from 10.5.0.1:65060 on port 1883.
+1662989174: New client connected from 10.5.0.1:65060 as ESP32Client (p2, c1, k15).
+1662989474: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1662989657: Client ESP32Client has exceeded timeout, disconnecting.
+1662990286: Client P1 closed its connection.
+1662990288: New connection from 10.5.0.3:34929 on port 1883.
+1662990288: New client connected from 10.5.0.3:34929 as P1 (p2, c1, k60).
+1662990569: New connection from 10.5.0.1:55662 on port 1883.
+1662990569: New client connected from 10.5.0.1:55662 as P3 (p2, c1, k60).
+1662990569: Client P3 closed its connection.
+1662991023: New connection from 10.5.0.1:55088 on port 1883.
+1662991023: New client connected from 10.5.0.1:55088 as ESP32Client (p2, c1, k15).
+1662991023: Client ESP32Client disconnected.
+1662991026: New connection from 10.5.0.1:55780 on port 1883.
+1662991026: New client connected from 10.5.0.1:55780 as ESP32Client (p2, c1, k15).
+1662991026: Client ESP32Client disconnected.
+1662991029: New connection from 10.5.0.1:55782 on port 1883.
+1662991029: New client connected from 10.5.0.1:55782 as ESP32Client (p2, c1, k15).
+1662991029: Client ESP32Client disconnected.
+1662991032: New connection from 10.5.0.1:55784 on port 1883.
+1662991032: New client connected from 10.5.0.1:55784 as ESP32Client (p2, c1, k15).
+1662991032: Client ESP32Client disconnected.
+1662991035: New connection from 10.5.0.1:62366 on port 1883.
+1662991035: New client connected from 10.5.0.1:62366 as ESP32Client (p2, c1, k15).
+1662991035: Client ESP32Client disconnected.
+1662991039: New connection from 10.5.0.1:62368 on port 1883.
+1662991039: New client connected from 10.5.0.1:62368 as ESP32Client (p2, c1, k15).
+1662991039: Client ESP32Client disconnected.
+1662991042: New connection from 10.5.0.1:62370 on port 1883.
+1662991042: New client connected from 10.5.0.1:62370 as ESP32Client (p2, c1, k15).
+1662991042: Client ESP32Client disconnected.
+1662991045: New connection from 10.5.0.1:55794 on port 1883.
+1662991045: New client connected from 10.5.0.1:55794 as ESP32Client (p2, c1, k15).
+1662991045: Client ESP32Client disconnected.
+1662991048: New connection from 10.5.0.1:55796 on port 1883.
+1662991048: New client connected from 10.5.0.1:55796 as ESP32Client (p2, c1, k15).
+1662991048: Client ESP32Client disconnected.
+1662991049: Client P1 closed its connection.
+1662991051: New connection from 10.5.0.3:60775 on port 1883.
+1662991051: New client connected from 10.5.0.3:60775 as P1 (p2, c1, k60).
+1662991052: New connection from 10.5.0.1:55798 on port 1883.
+1662991052: New client connected from 10.5.0.1:55798 as ESP32Client (p2, c1, k15).
+1662991052: Client ESP32Client disconnected.
+1662991052: Client P1 closed its connection.
+1662991055: New connection from 10.5.0.1:64412 on port 1883.
+1662991055: New client connected from 10.5.0.1:64412 as ESP32Client (p2, c1, k15).
+1662991055: Client ESP32Client disconnected.
+1662991070: New connection from 10.5.0.1:55360 on port 1883.
+1662991070: New client connected from 10.5.0.1:55360 as ESP32Client (p2, c1, k15).
+1662991070: Client ESP32Client disconnected.
+1662991073: New connection from 10.5.0.1:65250 on port 1883.
+1662991076: New client connected from 10.5.0.1:65250 as ESP32Client (p2, c1, k15).
+1662991076: Client ESP32Client disconnected.
+1662991082: New connection from 10.5.0.3:33207 on port 1883.
+1662991082: New client connected from 10.5.0.3:33207 as P1 (p2, c1, k60).
+1662991112: New connection from 10.5.0.1:62514 on port 1883.
+1662991112: New client connected from 10.5.0.1:62514 as ESP32Client (p2, c1, k15).
+1662991116: Client P1 closed its connection.
+1662991116: New connection from 10.5.0.1:55872 on port 1883.
+1662991116: Client ESP32Client already connected, closing old connection.
+1662991116: New client connected from 10.5.0.1:55872 as ESP32Client (p2, c1, k15).
+1662991127: New connection from 10.5.0.1:63208 on port 1883.
+1662991127: Client ESP32Client already connected, closing old connection.
+1662991127: New client connected from 10.5.0.1:63208 as ESP32Client (p2, c1, k15).
+1662991127: Client ESP32Client disconnected.
+1662991130: New connection from 10.5.0.1:63210 on port 1883.
+1662991130: New client connected from 10.5.0.1:63210 as ESP32Client (p2, c1, k15).
+1662991131: Client ESP32Client disconnected.
+1662991134: New connection from 10.5.0.1:63138 on port 1883.
+1662991134: New client connected from 10.5.0.1:63138 as ESP32Client (p2, c1, k15).
+1662991135: Client ESP32Client disconnected.
+1662991138: New connection from 10.5.0.1:63140 on port 1883.
+1662991138: New client connected from 10.5.0.1:63140 as ESP32Client (p2, c1, k15).
+1662991138: Client ESP32Client disconnected.
+1662991141: New connection from 10.5.0.1:63142 on port 1883.
+1662991141: New client connected from 10.5.0.1:63142 as ESP32Client (p2, c1, k15).
+1662991141: Client ESP32Client disconnected.
+1662991144: New connection from 10.5.0.1:60618 on port 1883.
+1662991162: New connection from 10.5.0.1:60352 on port 1883.
+1662991162: New client connected from 10.5.0.1:60352 as ESP32Client (p2, c1, k15).
+1662991162: Client ESP32Client disconnected.
+1662991165: New client connected from 10.5.0.1:60618 as ESP32Client (p2, c1, k15).
+1662991165: Client ESP32Client closed its connection.
+1662991165: New connection from 10.5.0.1:59090 on port 1883.
+1662991165: New client connected from 10.5.0.1:59090 as ESP32Client (p2, c1, k15).
+1662991165: Client ESP32Client disconnected.
+1662991169: New connection from 10.5.0.1:59092 on port 1883.
+1662991169: New client connected from 10.5.0.1:59092 as ESP32Client (p2, c1, k15).
+1662991169: Client ESP32Client disconnected.
+1662991171: New connection from 10.5.0.3:42181 on port 1883.
+1662991171: New client connected from 10.5.0.3:42181 as P1 (p2, c1, k60).
+1662991172: New connection from 10.5.0.1:59094 on port 1883.
+1662991172: New client connected from 10.5.0.1:59094 as ESP32Client (p2, c1, k15).
+1662991172: Client ESP32Client disconnected.
+1662991175: New connection from 10.5.0.1:64642 on port 1883.
+1662991175: New client connected from 10.5.0.1:64642 as ESP32Client (p2, c1, k15).
+1662991175: Client ESP32Client disconnected.
+1662991186: New connection from 10.5.0.1:60168 on port 1883.
+1662991186: New client connected from 10.5.0.1:60168 as ESP32Client (p2, c1, k15).
+1662991186: Client ESP32Client disconnected.
+1662991189: New connection from 10.5.0.1:60170 on port 1883.
+1662991189: New client connected from 10.5.0.1:60170 as ESP32Client (p2, c1, k15).
+1662991189: Client ESP32Client disconnected.
+1662991192: New connection from 10.5.0.1:60172 on port 1883.
+1662991192: New client connected from 10.5.0.1:60172 as ESP32Client (p2, c1, k15).
+1662991193: Client ESP32Client disconnected.
+1662991196: New connection from 10.5.0.1:58702 on port 1883.
+1662991196: New client connected from 10.5.0.1:58702 as ESP32Client (p2, c1, k15).
+1662991196: Client ESP32Client disconnected.
+1662991199: New connection from 10.5.0.1:58704 on port 1883.
+1662991199: New client connected from 10.5.0.1:58704 as ESP32Client (p2, c1, k15).
+1662991199: Client ESP32Client disconnected.
+1662991201: Client P1 closed its connection.
+1662991202: New connection from 10.5.0.3:40423 on port 1883.
+1662991202: New client connected from 10.5.0.3:40423 as P1 (p2, c1, k60).
+1662991203: New connection from 10.5.0.1:58706 on port 1883.
+1662991203: New client connected from 10.5.0.1:58706 as ESP32Client (p2, c1, k15).
+1662991205: Client ESP32Client disconnected.
+1662991209: New connection from 10.5.0.1:56150 on port 1883.
+1662991209: New client connected from 10.5.0.1:56150 as ESP32Client (p2, c1, k15).
+1662991209: Client ESP32Client disconnected.
+1662991215: New connection from 10.5.0.1:60650 on port 1883.
+1662991215: New client connected from 10.5.0.1:60650 as ESP32Client (p2, c1, k15).
+1662991215: Client ESP32Client disconnected.
+1662991219: New connection from 10.5.0.1:60652 on port 1883.
+1662991219: New client connected from 10.5.0.1:60652 as ESP32Client (p2, c1, k15).
+1662991219: Client ESP32Client disconnected.
+1662991222: New connection from 10.5.0.1:60654 on port 1883.
+1662991222: New client connected from 10.5.0.1:60654 as ESP32Client (p2, c1, k15).
+1662991222: Client ESP32Client disconnected.
+1662991226: New connection from 10.5.0.1:61838 on port 1883.
+1662991226: New client connected from 10.5.0.1:61838 as ESP32Client (p2, c1, k15).
+1662991226: Client ESP32Client disconnected.
+1662991230: New connection from 10.5.0.1:61840 on port 1883.
+1662991230: New client connected from 10.5.0.1:61840 as ESP32Client (p2, c1, k15).
+1662991230: Client ESP32Client disconnected.
+1662991232: Client P1 closed its connection.
+1662991232: New connection from 10.5.0.3:59983 on port 1883.
+1662991232: New client connected from 10.5.0.3:59983 as P1 (p2, c1, k60).
+1662991233: New connection from 10.5.0.1:61468 on port 1883.
+1662991233: New client connected from 10.5.0.1:61468 as ESP32Client (p2, c1, k15).
+1662991233: Client ESP32Client disconnected.
+1662991237: New connection from 10.5.0.1:61470 on port 1883.
+1662991237: New client connected from 10.5.0.1:61470 as ESP32Client (p2, c1, k15).
+1662991237: Client ESP32Client disconnected.
+1662991240: New connection from 10.5.0.1:61472 on port 1883.
+1662991240: New client connected from 10.5.0.1:61472 as ESP32Client (p2, c1, k15).
+1662991240: Client ESP32Client disconnected.
+1662991243: New connection from 10.5.0.1:56622 on port 1883.
+1662991243: New client connected from 10.5.0.1:56622 as ESP32Client (p2, c1, k15).
+1662991243: Client ESP32Client disconnected.
+1662991247: New connection from 10.5.0.1:56624 on port 1883.
+1662991247: New client connected from 10.5.0.1:56624 as ESP32Client (p2, c1, k15).
+1662991249: Client ESP32Client disconnected.
+1662991250: New connection from 10.5.0.1:56626 on port 1883.
+1662991250: New client connected from 10.5.0.1:56626 as ESP32Client (p2, c1, k15).
+1662991250: Client ESP32Client disconnected.
+1662991253: New connection from 10.5.0.1:56628 on port 1883.
+1662991253: New client connected from 10.5.0.1:56628 as ESP32Client (p2, c1, k15).
+1662991253: Client P1 closed its connection.
+1662991253: Client ESP32Client disconnected.
+1662991254: New connection from 10.5.0.3:40173 on port 1883.
+1662991254: New client connected from 10.5.0.3:40173 as P1 (p2, c1, k60).
+1662991256: New connection from 10.5.0.1:64168 on port 1883.
+1662991256: New client connected from 10.5.0.1:64168 as ESP32Client (p2, c1, k15).
+1662991256: Client ESP32Client disconnected.
+1662991259: New connection from 10.5.0.1:64170 on port 1883.
+1662991259: New client connected from 10.5.0.1:64170 as ESP32Client (p2, c1, k15).
+1662991259: Client ESP32Client disconnected.
+1662991262: New connection from 10.5.0.1:64172 on port 1883.
+1662991262: New client connected from 10.5.0.1:64172 as ESP32Client (p2, c1, k15).
+1662991262: Client ESP32Client disconnected.
+1662991266: New connection from 10.5.0.1:62526 on port 1883.
+1662991266: New client connected from 10.5.0.1:62526 as ESP32Client (p2, c1, k15).
+1662991266: Client ESP32Client disconnected.
+1662991275: New connection from 10.5.0.1:55528 on port 1883.
+1662991275: New client connected from 10.5.0.1:55528 as ESP32Client (p2, c1, k15).
+1662991277: Client ESP32Client disconnected.
+1662991290: New connection from 10.5.0.1:63398 on port 1883.
+1662991290: New client connected from 10.5.0.1:63398 as ESP32Client (p2, c1, k15).
+1662991293: Client ESP32Client disconnected.
+1662991300: New connection from 10.5.0.1:56428 on port 1883.
+1662991300: New client connected from 10.5.0.1:56428 as ESP32Client (p2, c1, k15).
+1662991300: Client ESP32Client disconnected.
+1662991303: New connection from 10.5.0.1:56430 on port 1883.
+1662991303: New client connected from 10.5.0.1:56430 as ESP32Client (p2, c1, k15).
+1662991303: Client ESP32Client disconnected.
+1662991306: New connection from 10.5.0.1:59468 on port 1883.
+1662991306: New client connected from 10.5.0.1:59468 as ESP32Client (p2, c1, k15).
+1662991306: Client ESP32Client disconnected.
+1662991310: New connection from 10.5.0.1:59470 on port 1883.
+1662991310: New client connected from 10.5.0.1:59470 as ESP32Client (p2, c1, k15).
+1662991310: Client ESP32Client disconnected.
+1662991319: New connection from 10.5.0.1:62828 on port 1883.
+1662991319: New client connected from 10.5.0.1:62828 as ESP32Client (p2, c1, k15).
+1662991319: Client ESP32Client disconnected.
+1662991323: New connection from 10.5.0.1:62830 on port 1883.
+1662991323: New client connected from 10.5.0.1:62830 as ESP32Client (p2, c1, k15).
+1662991323: Client ESP32Client disconnected.
+1662991326: New connection from 10.5.0.1:57338 on port 1883.
+1662991326: New client connected from 10.5.0.1:57338 as ESP32Client (p2, c1, k15).
+1662991326: Client ESP32Client disconnected.
+1662991329: New connection from 10.5.0.1:57340 on port 1883.
+1662991329: New client connected from 10.5.0.1:57340 as ESP32Client (p2, c1, k15).
+1662991330: Client ESP32Client disconnected.
+1662991333: New connection from 10.5.0.1:57342 on port 1883.
+1662991333: New client connected from 10.5.0.1:57342 as ESP32Client (p2, c1, k15).
+1662991333: Client ESP32Client disconnected.
+1662991335: Client P1 closed its connection.
+1662991336: New connection from 10.5.0.3:34667 on port 1883.
+1662991336: New client connected from 10.5.0.3:34667 as P1 (p2, c1, k60).
+1662991336: New connection from 10.5.0.1:56802 on port 1883.
+1662991336: New client connected from 10.5.0.1:56802 as ESP32Client (p2, c1, k15).
+1662991336: Client ESP32Client disconnected.
+1662991340: New connection from 10.5.0.1:56804 on port 1883.
+1662991340: New client connected from 10.5.0.1:56804 as ESP32Client (p2, c1, k15).
+1662991340: Client ESP32Client disconnected.
+1662991343: New connection from 10.5.0.1:59542 on port 1883.
+1662991343: New client connected from 10.5.0.1:59542 as ESP32Client (p2, c1, k15).
+1662991343: Client ESP32Client disconnected.
+1662991346: New connection from 10.5.0.1:59544 on port 1883.
+1662991346: New client connected from 10.5.0.1:59544 as ESP32Client (p2, c1, k15).
+1662991346: Client ESP32Client disconnected.
+1662991349: New connection from 10.5.0.1:59546 on port 1883.
+1662991349: New client connected from 10.5.0.1:59546 as ESP32Client (p2, c1, k15).
+1662991349: Client ESP32Client disconnected.
+1662991352: New connection from 10.5.0.1:59548 on port 1883.
+1662991352: New client connected from 10.5.0.1:59548 as ESP32Client (p2, c1, k15).
+1662991352: Client ESP32Client disconnected.
+1662991355: New connection from 10.5.0.1:59890 on port 1883.
+1662991355: New client connected from 10.5.0.1:59890 as ESP32Client (p2, c1, k15).
+1662991356: Client ESP32Client disconnected.
+1662991359: New connection from 10.5.0.1:59892 on port 1883.
+1662991359: New client connected from 10.5.0.1:59892 as ESP32Client (p2, c1, k15).
+1662991359: Client ESP32Client disconnected.
+1662991362: New connection from 10.5.0.1:59894 on port 1883.
+1662991362: New client connected from 10.5.0.1:59894 as ESP32Client (p2, c1, k15).
+1662991362: Client ESP32Client disconnected.
+1662991365: New connection from 10.5.0.1:57418 on port 1883.
+1662991365: New client connected from 10.5.0.1:57418 as ESP32Client (p2, c1, k15).
+1662991365: Client ESP32Client disconnected.
+1662991368: New connection from 10.5.0.1:57420 on port 1883.
+1662991368: New client connected from 10.5.0.1:57420 as ESP32Client (p2, c1, k15).
+1662991368: Client ESP32Client disconnected.
+1662991372: New connection from 10.5.0.1:57422 on port 1883.
+1662991372: New client connected from 10.5.0.1:57422 as ESP32Client (p2, c1, k15).
+1662991372: Client ESP32Client disconnected.
+1662991376: New connection from 10.5.0.1:63150 on port 1883.
+1662991376: New client connected from 10.5.0.1:63150 as ESP32Client (p2, c1, k15).
+1662991376: Client ESP32Client disconnected.
+1662991379: New connection from 10.5.0.1:63152 on port 1883.
+1662991379: New client connected from 10.5.0.1:63152 as ESP32Client (p2, c1, k15).
+1662991379: Client ESP32Client disconnected.
+1662991382: New connection from 10.5.0.1:63154 on port 1883.
+1662991382: New client connected from 10.5.0.1:63154 as ESP32Client (p2, c1, k15).
+1662991382: Client ESP32Client disconnected.
+1662991385: New connection from 10.5.0.1:62268 on port 1883.
+1662991385: New client connected from 10.5.0.1:62268 as ESP32Client (p2, c1, k15).
+1662991385: Client ESP32Client disconnected.
+1662991389: New connection from 10.5.0.1:62270 on port 1883.
+1662991389: New client connected from 10.5.0.1:62270 as ESP32Client (p2, c1, k15).
+1662991390: Client ESP32Client disconnected.
+1662991396: Client P1 closed its connection.
+1662991399: New connection from 10.5.0.1:63024 on port 1883.
+1662991399: New client connected from 10.5.0.1:63024 as ESP32Client (p2, c1, k15).
+1662991399: Client ESP32Client disconnected.
+1662991402: New connection from 10.5.0.1:63026 on port 1883.
+1662991402: New client connected from 10.5.0.1:63026 as ESP32Client (p2, c1, k15).
+1662991402: Client ESP32Client disconnected.
+1662991405: New connection from 10.5.0.1:55212 on port 1883.
+1662991405: New client connected from 10.5.0.1:55212 as ESP32Client (p2, c1, k15).
+1662991405: Client ESP32Client disconnected.
+1662991409: New connection from 10.5.0.1:55214 on port 1883.
+1662991409: New client connected from 10.5.0.1:55214 as ESP32Client (p2, c1, k15).
+1662991409: Client ESP32Client disconnected.
+1662991412: New connection from 10.5.0.1:55216 on port 1883.
+1662991412: New client connected from 10.5.0.1:55216 as ESP32Client (p2, c1, k15).
+1662991412: Client ESP32Client disconnected.
+1662991415: New connection from 10.5.0.1:55566 on port 1883.
+1662991415: New client connected from 10.5.0.1:55566 as ESP32Client (p2, c1, k15).
+1662991416: Client ESP32Client disconnected.
+1662991420: New connection from 10.5.0.1:55568 on port 1883.
+1662991428: New client connected from 10.5.0.1:55568 as ESP32Client (p2, c1, k15).
+1662991428: Client ESP32Client disconnected.
+1662991432: New connection from 10.5.0.1:59208 on port 1883.
+1662991432: New client connected from 10.5.0.1:59208 as ESP32Client (p2, c1, k15).
+1662991432: Client ESP32Client disconnected.
+1662991435: New connection from 10.5.0.1:61180 on port 1883.
+1662991435: New client connected from 10.5.0.1:61180 as ESP32Client (p2, c1, k15).
+1662991435: Client ESP32Client disconnected.
+1662991438: New connection from 10.5.0.1:61182 on port 1883.
+1662991438: New client connected from 10.5.0.1:61182 as ESP32Client (p2, c1, k15).
+1662991438: Client ESP32Client disconnected.
+1662991442: New connection from 10.5.0.1:61184 on port 1883.
+1662991442: New client connected from 10.5.0.1:61184 as ESP32Client (p2, c1, k15).
+1662991442: Client ESP32Client disconnected.
+1662991445: New connection from 10.5.0.1:61954 on port 1883.
+1662991445: New client connected from 10.5.0.1:61954 as ESP32Client (p2, c1, k15).
+1662991445: Client ESP32Client disconnected.
+1662991449: New connection from 10.5.0.1:61956 on port 1883.
+1662991449: New client connected from 10.5.0.1:61956 as ESP32Client (p2, c1, k15).
+1662991449: Client ESP32Client disconnected.
+1662991452: New connection from 10.5.0.1:61958 on port 1883.
+1662991452: New client connected from 10.5.0.1:61958 as ESP32Client (p2, c1, k15).
+1662991452: Client ESP32Client disconnected.
+1662991462: New connection from 10.5.0.1:60108 on port 1883.
+1662991462: New client connected from 10.5.0.1:60108 as ESP32Client (p2, c1, k15).
+1662991462: Client ESP32Client disconnected.
+1662991465: New connection from 10.5.0.1:64260 on port 1883.
+1662991465: New client connected from 10.5.0.1:64260 as ESP32Client (p2, c1, k15).
+1662991465: Client ESP32Client disconnected.
+1662991523: New connection from 10.5.0.1:61042 on port 1883.
+1662991523: New client connected from 10.5.0.1:61042 as ESP32Client (p2, c1, k15).
+1662991525: Client ESP32Client disconnected.
+1662991528: New connection from 10.5.0.1:61044 on port 1883.
+1662991528: New client connected from 10.5.0.1:61044 as ESP32Client (p2, c1, k15).
+1662991528: Client ESP32Client disconnected.
+1662991531: New connection from 10.5.0.1:61046 on port 1883.
+1662991531: New client connected from 10.5.0.1:61046 as ESP32Client (p2, c1, k15).
+1662991531: Client ESP32Client disconnected.
+1662991534: New connection from 10.5.0.1:62334 on port 1883.
+1662991534: New client connected from 10.5.0.1:62334 as ESP32Client (p2, c1, k15).
+1662991534: Client ESP32Client disconnected.
+1662991538: New connection from 10.5.0.1:62336 on port 1883.
+1662991538: New client connected from 10.5.0.1:62336 as ESP32Client (p2, c1, k15).
+1662991538: Client ESP32Client disconnected.
+1662991542: New connection from 10.5.0.1:62338 on port 1883.
+1662991542: New client connected from 10.5.0.1:62338 as ESP32Client (p2, c1, k15).
+1662991542: Client ESP32Client disconnected.
+1662991545: New connection from 10.5.0.1:62978 on port 1883.
+1662991545: New client connected from 10.5.0.1:62978 as ESP32Client (p2, c1, k15).
+1662991546: Client ESP32Client disconnected.
+1662991549: New connection from 10.5.0.1:62980 on port 1883.
+1662991549: New client connected from 10.5.0.1:62980 as ESP32Client (p2, c1, k15).
+1662991549: Client ESP32Client disconnected.
+1662991552: New connection from 10.5.0.1:62982 on port 1883.
+1662991552: New client connected from 10.5.0.1:62982 as ESP32Client (p2, c1, k15).
+1662991552: Client ESP32Client disconnected.
+1662991556: New connection from 10.5.0.1:64300 on port 1883.
+1662991556: New client connected from 10.5.0.1:64300 as ESP32Client (p2, c1, k15).
+1662991556: Client ESP32Client disconnected.
+1662991559: New connection from 10.5.0.1:64302 on port 1883.
+1662991559: New client connected from 10.5.0.1:64302 as ESP32Client (p2, c1, k15).
+1662991559: Client ESP32Client disconnected.
+1662991562: New connection from 10.5.0.1:64304 on port 1883.
+1662991562: New client connected from 10.5.0.1:64304 as ESP32Client (p2, c1, k15).
+1662991563: Client ESP32Client disconnected.
+1662991566: New connection from 10.5.0.1:63716 on port 1883.
+1662991566: New client connected from 10.5.0.1:63716 as ESP32Client (p2, c1, k15).
+1662991566: Client ESP32Client disconnected.
+1662991569: New connection from 10.5.0.1:63718 on port 1883.
+1662991569: New client connected from 10.5.0.1:63718 as ESP32Client (p2, c1, k15).
+1662991570: Client ESP32Client disconnected.
+1662991572: New connection from 10.5.0.1:63720 on port 1883.
+1662991572: New client connected from 10.5.0.1:63720 as ESP32Client (p2, c1, k15).
+1662991573: Client ESP32Client disconnected.
+1662991576: New connection from 10.5.0.1:62758 on port 1883.
+1662991576: New client connected from 10.5.0.1:62758 as ESP32Client (p2, c1, k15).
+1662991576: Client ESP32Client disconnected.
+1662991579: New connection from 10.5.0.1:62760 on port 1883.
+1662991579: New client connected from 10.5.0.1:62760 as ESP32Client (p2, c1, k15).
+1662991580: Client ESP32Client disconnected.
+1662991583: New connection from 10.5.0.1:62762 on port 1883.
+1662991583: New client connected from 10.5.0.1:62762 as ESP32Client (p2, c1, k15).
+1662991583: Client ESP32Client disconnected.
+1662991586: New connection from 10.5.0.1:64372 on port 1883.
+1662991586: New client connected from 10.5.0.1:64372 as ESP32Client (p2, c1, k15).
+1662991586: Client ESP32Client disconnected.
+1662991589: New connection from 10.5.0.1:64374 on port 1883.
+1662991589: New client connected from 10.5.0.1:64374 as ESP32Client (p2, c1, k15).
+1662991589: Client ESP32Client disconnected.
+1662991593: New connection from 10.5.0.1:58918 on port 1883.
+1662991593: New client connected from 10.5.0.1:58918 as ESP32Client (p2, c1, k15).
+1662991593: Client ESP32Client disconnected.
+1662991596: New connection from 10.5.0.1:58920 on port 1883.
+1662991596: New client connected from 10.5.0.1:58920 as ESP32Client (p2, c1, k15).
+1662991596: Client ESP32Client disconnected.
+1662991600: New connection from 10.5.0.1:58922 on port 1883.
+1662991600: New client connected from 10.5.0.1:58922 as ESP32Client (p2, c1, k15).
+1662991600: Client ESP32Client disconnected.
+1662991603: New connection from 10.5.0.1:55588 on port 1883.
+1662991603: New client connected from 10.5.0.1:55588 as ESP32Client (p2, c1, k15).
+1662991603: Client ESP32Client disconnected.
+1662991606: New connection from 10.5.0.1:55590 on port 1883.
+1662991606: New client connected from 10.5.0.1:55590 as ESP32Client (p2, c1, k15).
+1662991607: Client ESP32Client disconnected.
+1662991610: New connection from 10.5.0.1:55592 on port 1883.
+1662991610: New client connected from 10.5.0.1:55592 as ESP32Client (p2, c1, k15).
+1662991610: Client ESP32Client disconnected.
+1662991613: New connection from 10.5.0.1:58166 on port 1883.
+1662991613: New client connected from 10.5.0.1:58166 as ESP32Client (p2, c1, k15).
+1662991613: Client ESP32Client disconnected.
+1662991616: New connection from 10.5.0.1:58168 on port 1883.
+1662991616: New client connected from 10.5.0.1:58168 as ESP32Client (p2, c1, k15).
+1662991616: Client ESP32Client disconnected.
+1662991620: New connection from 10.5.0.1:58170 on port 1883.
+1662991620: New client connected from 10.5.0.1:58170 as ESP32Client (p2, c1, k15).
+1662991620: Client ESP32Client disconnected.
+1662991624: New connection from 10.5.0.1:55824 on port 1883.
+1662991624: New client connected from 10.5.0.1:55824 as ESP32Client (p2, c1, k15).
+1662991624: Client ESP32Client disconnected.
+1662991627: New connection from 10.5.0.1:55826 on port 1883.
+1662991627: New client connected from 10.5.0.1:55826 as ESP32Client (p2, c1, k15).
+1662991627: Client ESP32Client disconnected.
+1662991630: New connection from 10.5.0.1:55828 on port 1883.
+1662991630: New client connected from 10.5.0.1:55828 as ESP32Client (p2, c1, k15).
+1662991630: Client ESP32Client disconnected.
+1662991634: New connection from 10.5.0.1:59956 on port 1883.
+1662991634: New client connected from 10.5.0.1:59956 as ESP32Client (p2, c1, k15).
+1662991634: Client ESP32Client disconnected.
+1662991637: New connection from 10.5.0.1:59958 on port 1883.
+1662991637: New client connected from 10.5.0.1:59958 as ESP32Client (p2, c1, k15).
+1662991637: Client ESP32Client disconnected.
+1662991641: New connection from 10.5.0.1:59960 on port 1883.
+1662991641: New client connected from 10.5.0.1:59960 as ESP32Client (p2, c1, k15).
+1662991641: Client ESP32Client disconnected.
+1662991644: New connection from 10.5.0.1:65236 on port 1883.
+1662991644: New client connected from 10.5.0.1:65236 as ESP32Client (p2, c1, k15).
+1662991644: Client ESP32Client disconnected.
+1662991647: New connection from 10.5.0.1:65238 on port 1883.
+1662991647: New client connected from 10.5.0.1:65238 as ESP32Client (p2, c1, k15).
+1662991647: Client ESP32Client disconnected.
+1662991650: New connection from 10.5.0.1:65240 on port 1883.
+1662991650: New client connected from 10.5.0.1:65240 as ESP32Client (p2, c1, k15).
+1662991650: Client ESP32Client disconnected.
+1662991654: New connection from 10.5.0.1:62194 on port 1883.
+1662991654: New client connected from 10.5.0.1:62194 as ESP32Client (p2, c1, k15).
+1662991654: Client ESP32Client disconnected.
+1662991658: New connection from 10.5.0.1:62196 on port 1883.
+1662991658: New client connected from 10.5.0.1:62196 as ESP32Client (p2, c1, k15).
+1662991658: Client ESP32Client disconnected.
+1662991661: New connection from 10.5.0.1:62198 on port 1883.
+1662991661: New client connected from 10.5.0.1:62198 as ESP32Client (p2, c1, k15).
+1662991662: Client ESP32Client disconnected.
+1662991665: New connection from 10.5.0.1:58460 on port 1883.
+1662991665: New client connected from 10.5.0.1:58460 as ESP32Client (p2, c1, k15).
+1662991665: Client ESP32Client disconnected.
+1662991668: New connection from 10.5.0.1:58462 on port 1883.
+1662991668: New client connected from 10.5.0.1:58462 as ESP32Client (p2, c1, k15).
+1662991669: Client ESP32Client disconnected.
+1662991672: New connection from 10.5.0.1:58464 on port 1883.
+1662991672: New client connected from 10.5.0.1:58464 as ESP32Client (p2, c1, k15).
+1662991672: Client ESP32Client disconnected.
+1662991675: New connection from 10.5.0.1:63846 on port 1883.
+1662991675: New client connected from 10.5.0.1:63846 as ESP32Client (p2, c1, k15).
+1662991676: Client ESP32Client disconnected.
+1662991678: New connection from 10.5.0.1:63848 on port 1883.
+1662991678: New client connected from 10.5.0.1:63848 as ESP32Client (p2, c1, k15).
+1662991678: Client ESP32Client disconnected.
+1662991681: New connection from 10.5.0.1:63850 on port 1883.
+1662991681: New client connected from 10.5.0.1:63850 as ESP32Client (p2, c1, k15).
+1662991681: Client ESP32Client disconnected.
+1662991685: New connection from 10.5.0.1:58952 on port 1883.
+1662991685: New client connected from 10.5.0.1:58952 as ESP32Client (p2, c1, k15).
+1662991685: Client ESP32Client disconnected.
+1662991686: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1662991688: New connection from 10.5.0.1:58954 on port 1883.
+1662991688: New client connected from 10.5.0.1:58954 as ESP32Client (p2, c1, k15).
+1662991688: Client ESP32Client disconnected.
+1662991691: New connection from 10.5.0.1:58956 on port 1883.
+1662991691: New client connected from 10.5.0.1:58956 as ESP32Client (p2, c1, k15).
+1662991692: Client ESP32Client disconnected.
+1662992511: New connection from 10.5.0.3:59331 on port 1883.
+1662992511: New client connected from 10.5.0.3:59331 as P1 (p2, c1, k60).
+1662992589: New connection from 10.5.0.1:61284 on port 1883.
+1662992589: New client connected from 10.5.0.1:61284 as ESP32Client (p2, c1, k15).
+1662992589: Client ESP32Client disconnected.
+1662992593: New connection from 10.5.0.1:61286 on port 1883.
+1662992593: New client connected from 10.5.0.1:61286 as ESP32Client (p2, c1, k15).
+1662992593: Client ESP32Client disconnected.
+1662992596: New connection from 10.5.0.1:61288 on port 1883.
+1662992596: New client connected from 10.5.0.1:61288 as ESP32Client (p2, c1, k15).
+1662992596: Client ESP32Client disconnected.
+1662992600: New connection from 10.5.0.1:56938 on port 1883.
+1662992600: New client connected from 10.5.0.1:56938 as ESP32Client (p2, c1, k15).
+1662992600: Client ESP32Client disconnected.
+1662992603: New connection from 10.5.0.1:56940 on port 1883.
+1662992603: New client connected from 10.5.0.1:56940 as ESP32Client (p2, c1, k15).
+1662992603: Client ESP32Client disconnected.
+1662992607: New connection from 10.5.0.1:56942 on port 1883.
+1662992607: New client connected from 10.5.0.1:56942 as ESP32Client (p2, c1, k15).
+1662992608: Client ESP32Client disconnected.
+1662992611: New connection from 10.5.0.1:61016 on port 1883.
+1662992611: New client connected from 10.5.0.1:61016 as ESP32Client (p2, c1, k15).
+1662992611: Client ESP32Client disconnected.
+1662992614: New connection from 10.5.0.1:61018 on port 1883.
+1662992614: New client connected from 10.5.0.1:61018 as ESP32Client (p2, c1, k15).
+1662992614: Client ESP32Client disconnected.
+1662992617: New connection from 10.5.0.1:61020 on port 1883.
+1662992618: New client connected from 10.5.0.1:61020 as ESP32Client (p2, c1, k15).
+1662992618: Client ESP32Client disconnected.
+1662992621: New connection from 10.5.0.1:64204 on port 1883.
+1662992621: New client connected from 10.5.0.1:64204 as ESP32Client (p2, c1, k15).
+1662992621: Client ESP32Client disconnected.
+1662992624: New connection from 10.5.0.1:64206 on port 1883.
+1662992624: New client connected from 10.5.0.1:64206 as ESP32Client (p2, c1, k15).
+1662992624: Client ESP32Client disconnected.
+1662992628: New connection from 10.5.0.1:64208 on port 1883.
+1662992628: New client connected from 10.5.0.1:64208 as ESP32Client (p2, c1, k15).
+1662992628: Client ESP32Client disconnected.
+1662992631: New connection from 10.5.0.1:56654 on port 1883.
+1662992631: New client connected from 10.5.0.1:56654 as ESP32Client (p2, c1, k15).
+1662992631: Client ESP32Client disconnected.
+1662992634: New connection from 10.5.0.1:56656 on port 1883.
+1662992634: New client connected from 10.5.0.1:56656 as ESP32Client (p2, c1, k15).
+1662992634: Client ESP32Client disconnected.
+1662992637: New connection from 10.5.0.1:56658 on port 1883.
+1662992637: New client connected from 10.5.0.1:56658 as ESP32Client (p2, c1, k15).
+1662992637: Client ESP32Client disconnected.
+1662992641: New connection from 10.5.0.1:61214 on port 1883.
+1662992641: New client connected from 10.5.0.1:61214 as ESP32Client (p2, c1, k15).
+1662992641: Client ESP32Client disconnected.
+1662992644: New connection from 10.5.0.1:61216 on port 1883.
+1662992644: New client connected from 10.5.0.1:61216 as ESP32Client (p2, c1, k15).
+1662992644: Client ESP32Client disconnected.
+1662992648: New connection from 10.5.0.1:61218 on port 1883.
+1662992648: New client connected from 10.5.0.1:61218 as ESP32Client (p2, c1, k15).
+1662992648: Client ESP32Client disconnected.
+1662992653: New connection from 10.5.0.1:61308 on port 1883.
+1662992653: New client connected from 10.5.0.1:61308 as ESP32Client (p2, c1, k15).
+1662992653: Client ESP32Client disconnected.
+1662992656: New connection from 10.5.0.1:61310 on port 1883.
+1662992656: New client connected from 10.5.0.1:61310 as ESP32Client (p2, c1, k15).
+1662992656: Client ESP32Client disconnected.
+1662992659: New connection from 10.5.0.1:58278 on port 1883.
+1662992659: New client connected from 10.5.0.1:58278 as ESP32Client (p2, c1, k15).
+1662992659: Client ESP32Client disconnected.
+1662992662: New connection from 10.5.0.1:58280 on port 1883.
+1662992662: New client connected from 10.5.0.1:58280 as ESP32Client (p2, c1, k15).
+1662992662: Client ESP32Client disconnected.
+1662992665: New connection from 10.5.0.1:58282 on port 1883.
+1662992665: New client connected from 10.5.0.1:58282 as ESP32Client (p2, c1, k15).
+1662992665: Client ESP32Client disconnected.
+1662992668: New connection from 10.5.0.1:58284 on port 1883.
+1662992668: New client connected from 10.5.0.1:58284 as ESP32Client (p2, c1, k15).
+1662992668: Client ESP32Client disconnected.
+1662992671: New connection from 10.5.0.1:56444 on port 1883.
+1662992671: New client connected from 10.5.0.1:56444 as ESP32Client (p2, c1, k15).
+1662992671: Client ESP32Client disconnected.
+1662992674: New connection from 10.5.0.1:56446 on port 1883.
+1662992674: New client connected from 10.5.0.1:56446 as ESP32Client (p2, c1, k15).
+1662992674: Client ESP32Client disconnected.
+1662992678: New connection from 10.5.0.1:56448 on port 1883.
+1662992678: New client connected from 10.5.0.1:56448 as ESP32Client (p2, c1, k15).
+1662992678: Client ESP32Client disconnected.
+1662992681: New connection from 10.5.0.1:59234 on port 1883.
+1662992681: New client connected from 10.5.0.1:59234 as ESP32Client (p2, c1, k15).
+1662992681: Client ESP32Client disconnected.
+1662992684: New connection from 10.5.0.1:59236 on port 1883.
+1662992684: New client connected from 10.5.0.1:59236 as ESP32Client (p2, c1, k15).
+1662992684: Client ESP32Client disconnected.
+1662992687: New connection from 10.5.0.1:59238 on port 1883.
+1662992687: New client connected from 10.5.0.1:59238 as ESP32Client (p2, c1, k15).
+1662992687: Client ESP32Client disconnected.
+1662992690: New connection from 10.5.0.1:59888 on port 1883.
+1662992690: New client connected from 10.5.0.1:59888 as ESP32Client (p2, c1, k15).
+1662992690: Client ESP32Client disconnected.
+1662992694: New connection from 10.5.0.1:59890 on port 1883.
+1662992694: New client connected from 10.5.0.1:59890 as ESP32Client (p2, c1, k15).
+1662992694: Client ESP32Client disconnected.
+1662992697: New connection from 10.5.0.1:59892 on port 1883.
+1662992697: New client connected from 10.5.0.1:59892 as ESP32Client (p2, c1, k15).
+1662992697: Client ESP32Client disconnected.
+1662992701: New connection from 10.5.0.1:60158 on port 1883.
+1662992701: New client connected from 10.5.0.1:60158 as ESP32Client (p2, c1, k15).
+1662992701: Client ESP32Client disconnected.
+1662992704: New connection from 10.5.0.1:60160 on port 1883.
+1662992704: New client connected from 10.5.0.1:60160 as ESP32Client (p2, c1, k15).
+1662992704: Client ESP32Client disconnected.
+1662992707: New connection from 10.5.0.1:60162 on port 1883.
+1662992707: New client connected from 10.5.0.1:60162 as ESP32Client (p2, c1, k15).
+1662992707: Client ESP32Client disconnected.
+1662992710: New connection from 10.5.0.1:59352 on port 1883.
+1662992710: New client connected from 10.5.0.1:59352 as ESP32Client (p2, c1, k15).
+1662992710: Client ESP32Client disconnected.
+1662992713: New connection from 10.5.0.1:59354 on port 1883.
+1662992713: New client connected from 10.5.0.1:59354 as ESP32Client (p2, c1, k15).
+1662992713: Client ESP32Client disconnected.
+1662992716: New connection from 10.5.0.1:59356 on port 1883.
+1662992716: New client connected from 10.5.0.1:59356 as ESP32Client (p2, c1, k15).
+1662992716: Client ESP32Client disconnected.
+1662992719: New connection from 10.5.0.1:61380 on port 1883.
+1662992719: New client connected from 10.5.0.1:61380 as ESP32Client (p2, c1, k15).
+1662992719: Client ESP32Client disconnected.
+1662992722: New connection from 10.5.0.1:61382 on port 1883.
+1662992722: New client connected from 10.5.0.1:61382 as ESP32Client (p2, c1, k15).
+1662992722: Client ESP32Client disconnected.
+1662992725: New connection from 10.5.0.1:61384 on port 1883.
+1662992725: New client connected from 10.5.0.1:61384 as ESP32Client (p2, c1, k15).
+1662992725: Client ESP32Client disconnected.
+1662992763: New connection from 10.5.0.1:61754 on port 1883.
+1662992763: New client connected from 10.5.0.1:61754 as ESP32Client (p2, c1, k15).
+1662992763: Client ESP32Client disconnected.
+1662992766: New connection from 10.5.0.1:61756 on port 1883.
+1662992766: New client connected from 10.5.0.1:61756 as ESP32Client (p2, c1, k15).
+1662992766: Client ESP32Client disconnected.
+1662992769: New connection from 10.5.0.1:55004 on port 1883.
+1662992769: New client connected from 10.5.0.1:55004 as ESP32Client (p2, c1, k15).
+1662992769: Client ESP32Client disconnected.
+1662992773: New connection from 10.5.0.1:55006 on port 1883.
+1662992773: New client connected from 10.5.0.1:55006 as ESP32Client (p2, c1, k15).
+1662992773: Client ESP32Client disconnected.
+1662992776: New connection from 10.5.0.1:55008 on port 1883.
+1662992776: New client connected from 10.5.0.1:55008 as ESP32Client (p2, c1, k15).
+1662992776: Client ESP32Client disconnected.
+1662992779: New connection from 10.5.0.1:60122 on port 1883.
+1662992779: New client connected from 10.5.0.1:60122 as ESP32Client (p2, c1, k15).
+1662992779: Client ESP32Client disconnected.
+1662992782: New connection from 10.5.0.1:60124 on port 1883.
+1662992782: New client connected from 10.5.0.1:60124 as ESP32Client (p2, c1, k15).
+1662992782: Client ESP32Client disconnected.
+1662992785: New connection from 10.5.0.1:60126 on port 1883.
+1662992785: New client connected from 10.5.0.1:60126 as ESP32Client (p2, c1, k15).
+1662992785: Client ESP32Client disconnected.
+1662992788: New connection from 10.5.0.1:61250 on port 1883.
+1662992788: New client connected from 10.5.0.1:61250 as ESP32Client (p2, c1, k15).
+1662992788: Client ESP32Client disconnected.
+1662992791: New connection from 10.5.0.1:61252 on port 1883.
+1662992791: New client connected from 10.5.0.1:61252 as ESP32Client (p2, c1, k15).
+1662992791: Client ESP32Client disconnected.
+1662992795: New connection from 10.5.0.1:61254 on port 1883.
+1662992795: New client connected from 10.5.0.1:61254 as ESP32Client (p2, c1, k15).
+1662992796: Client ESP32Client disconnected.
+1662992799: New connection from 10.5.0.1:64442 on port 1883.
+1662992799: New client connected from 10.5.0.1:64442 as ESP32Client (p2, c1, k15).
+1662992799: Client ESP32Client disconnected.
+1662992802: New connection from 10.5.0.1:64444 on port 1883.
+1662992802: New client connected from 10.5.0.1:64444 as ESP32Client (p2, c1, k15).
+1662992802: Client ESP32Client disconnected.
+1662992805: New connection from 10.5.0.1:64446 on port 1883.
+1662992805: New client connected from 10.5.0.1:64446 as ESP32Client (p2, c1, k15).
+1662992805: Client ESP32Client disconnected.
+1662992810: New connection from 10.5.0.1:65520 on port 1883.
+1662992810: New client connected from 10.5.0.1:65520 as ESP32Client (p2, c1, k15).
+1662992810: Client ESP32Client disconnected.
+1662992813: New connection from 10.5.0.1:65522 on port 1883.
+1662992813: New client connected from 10.5.0.1:65522 as ESP32Client (p2, c1, k15).
+1662992814: Client ESP32Client disconnected.
+1662992817: New connection from 10.5.0.1:65524 on port 1883.
+1662992817: New client connected from 10.5.0.1:65524 as ESP32Client (p2, c1, k15).
+1662992817: Client ESP32Client disconnected.
+1662992820: New connection from 10.5.0.1:56402 on port 1883.
+1662992820: New client connected from 10.5.0.1:56402 as ESP32Client (p2, c1, k15).
+1662992820: Client ESP32Client disconnected.
+1662992823: New connection from 10.5.0.1:56404 on port 1883.
+1662992823: New client connected from 10.5.0.1:56404 as ESP32Client (p2, c1, k15).
+1662992823: Client ESP32Client disconnected.
+1662992827: New connection from 10.5.0.1:56406 on port 1883.
+1662992827: New client connected from 10.5.0.1:56406 as ESP32Client (p2, c1, k15).
+1662992827: Client ESP32Client disconnected.
+1662992831: New connection from 10.5.0.1:63444 on port 1883.
+1662992831: New client connected from 10.5.0.1:63444 as ESP32Client (p2, c1, k15).
+1662992831: Client ESP32Client disconnected.
+1662992834: New connection from 10.5.0.1:63446 on port 1883.
+1662992834: New client connected from 10.5.0.1:63446 as ESP32Client (p2, c1, k15).
+1662992834: Client ESP32Client disconnected.
+1662992837: New connection from 10.5.0.1:63448 on port 1883.
+1662992837: New client connected from 10.5.0.1:63448 as ESP32Client (p2, c1, k15).
+1662992838: Client ESP32Client disconnected.
+1662992841: New connection from 10.5.0.1:60696 on port 1883.
+1662992841: New client connected from 10.5.0.1:60696 as ESP32Client (p2, c1, k15).
+1662992841: Client ESP32Client disconnected.
+1662992844: New connection from 10.5.0.1:60698 on port 1883.
+1662992844: New client connected from 10.5.0.1:60698 as ESP32Client (p2, c1, k15).
+1662992844: Client ESP32Client disconnected.
+1662992847: New connection from 10.5.0.1:60700 on port 1883.
+1662992847: New client connected from 10.5.0.1:60700 as ESP32Client (p2, c1, k15).
+1662992847: Client ESP32Client disconnected.
+1662992850: New connection from 10.5.0.1:56296 on port 1883.
+1662992850: New client connected from 10.5.0.1:56296 as ESP32Client (p2, c1, k15).
+1662992850: Client ESP32Client disconnected.
+1662992854: New connection from 10.5.0.1:56298 on port 1883.
+1662992854: New client connected from 10.5.0.1:56298 as ESP32Client (p2, c1, k15).
+1662992855: Client ESP32Client disconnected.
+1662992857: New connection from 10.5.0.1:56300 on port 1883.
+1662992857: New client connected from 10.5.0.1:56300 as ESP32Client (p2, c1, k15).
+1662992857: Client ESP32Client disconnected.
+1662992861: New connection from 10.5.0.1:58636 on port 1883.
+1662992861: New client connected from 10.5.0.1:58636 as ESP32Client (p2, c1, k15).
+1662992861: Client ESP32Client disconnected.
+1662992866: New connection from 10.5.0.1:58638 on port 1883.
+1662992866: New client connected from 10.5.0.1:58638 as ESP32Client (p2, c1, k15).
+1662992866: Client ESP32Client disconnected.
+1662992869: New connection from 10.5.0.1:61496 on port 1883.
+1662992869: New client connected from 10.5.0.1:61496 as ESP32Client (p2, c1, k15).
+1662992869: Client ESP32Client disconnected.
+1662992872: New connection from 10.5.0.1:61498 on port 1883.
+1662992872: New client connected from 10.5.0.1:61498 as ESP32Client (p2, c1, k15).
+1662992872: Client ESP32Client disconnected.
+1662992876: New connection from 10.5.0.1:61500 on port 1883.
+1662992876: New client connected from 10.5.0.1:61500 as ESP32Client (p2, c1, k15).
+1662992876: Client ESP32Client disconnected.
+1662992879: New connection from 10.5.0.1:64360 on port 1883.
+1662992879: New client connected from 10.5.0.1:64360 as ESP32Client (p2, c1, k15).
+1662992879: Client ESP32Client disconnected.
+1662992882: New connection from 10.5.0.1:64362 on port 1883.
+1662992882: New client connected from 10.5.0.1:64362 as ESP32Client (p2, c1, k15).
+1662992882: Client ESP32Client disconnected.
+1662992886: New connection from 10.5.0.1:64364 on port 1883.
+1662992886: New client connected from 10.5.0.1:64364 as ESP32Client (p2, c1, k15).
+1662992886: Client ESP32Client disconnected.
+1662992889: New connection from 10.5.0.1:61028 on port 1883.
+1662992889: New client connected from 10.5.0.1:61028 as ESP32Client (p2, c1, k15).
+1662992889: Client ESP32Client disconnected.
+1662992892: New connection from 10.5.0.1:61030 on port 1883.
+1662992892: New client connected from 10.5.0.1:61030 as ESP32Client (p2, c1, k15).
+1662992892: Client ESP32Client disconnected.
+1662992896: New connection from 10.5.0.1:61032 on port 1883.
+1662992896: New client connected from 10.5.0.1:61032 as ESP32Client (p2, c1, k15).
+1662992896: Client ESP32Client disconnected.
+1662992899: New connection from 10.5.0.1:55890 on port 1883.
+1662992899: New client connected from 10.5.0.1:55890 as ESP32Client (p2, c1, k15).
+1662992899: Client ESP32Client disconnected.
+1662992904: New connection from 10.5.0.1:55892 on port 1883.
+1662992904: New client connected from 10.5.0.1:55892 as ESP32Client (p2, c1, k15).
+1662992904: Client ESP32Client disconnected.
+1662992907: New connection from 10.5.0.1:55894 on port 1883.
+1662992907: New client connected from 10.5.0.1:55894 as ESP32Client (p2, c1, k15).
+1662992908: Client ESP32Client disconnected.
+1662992911: New connection from 10.5.0.1:61840 on port 1883.
+1662992911: New client connected from 10.5.0.1:61840 as ESP32Client (p2, c1, k15).
+1662992911: Client ESP32Client disconnected.
+1662992915: New connection from 10.5.0.1:61842 on port 1883.
+1662992915: New client connected from 10.5.0.1:61842 as ESP32Client (p2, c1, k15).
+1662992915: Client ESP32Client disconnected.
+1662992919: New connection from 10.5.0.1:63412 on port 1883.
+1662992919: New client connected from 10.5.0.1:63412 as ESP32Client (p2, c1, k15).
+1662992919: Client ESP32Client disconnected.
+1662992922: New connection from 10.5.0.1:63414 on port 1883.
+1662992922: New client connected from 10.5.0.1:63414 as ESP32Client (p2, c1, k15).
+1662992922: Client ESP32Client disconnected.
+1662992927: New connection from 10.5.0.1:63416 on port 1883.
+1662992927: New client connected from 10.5.0.1:63416 as ESP32Client (p2, c1, k15).
+1662992927: Client ESP32Client disconnected.
+1662992930: New connection from 10.5.0.1:65340 on port 1883.
+1662992930: New client connected from 10.5.0.1:65340 as ESP32Client (p2, c1, k15).
+1662992930: Client ESP32Client disconnected.
+1662992933: New connection from 10.5.0.1:65342 on port 1883.
+1662992933: New client connected from 10.5.0.1:65342 as ESP32Client (p2, c1, k15).
+1662992933: Client ESP32Client disconnected.
+1662992937: New connection from 10.5.0.1:65344 on port 1883.
+1662992937: New client connected from 10.5.0.1:65344 as ESP32Client (p2, c1, k15).
+1662992937: Client ESP32Client disconnected.
+1662992941: New connection from 10.5.0.1:62350 on port 1883.
+1662992941: New client connected from 10.5.0.1:62350 as ESP32Client (p2, c1, k15).
+1662992941: Client ESP32Client disconnected.
+1662992944: New connection from 10.5.0.1:62352 on port 1883.
+1662992944: New client connected from 10.5.0.1:62352 as ESP32Client (p2, c1, k15).
+1662992944: Client ESP32Client disconnected.
+1662992948: New connection from 10.5.0.1:62354 on port 1883.
+1662992948: New client connected from 10.5.0.1:62354 as ESP32Client (p2, c1, k15).
+1662992948: Client ESP32Client disconnected.
+1662992951: New connection from 10.5.0.1:56348 on port 1883.
+1662992951: New client connected from 10.5.0.1:56348 as ESP32Client (p2, c1, k15).
+1662992951: Client ESP32Client disconnected.
+1662992954: New connection from 10.5.0.1:56350 on port 1883.
+1662992954: New client connected from 10.5.0.1:56350 as ESP32Client (p2, c1, k15).
+1662992954: Client ESP32Client disconnected.
+1662992957: New connection from 10.5.0.1:56352 on port 1883.
+1662992957: New client connected from 10.5.0.1:56352 as ESP32Client (p2, c1, k15).
+1662992957: Client ESP32Client disconnected.
+1662992960: New connection from 10.5.0.1:60384 on port 1883.
+1662992960: New client connected from 10.5.0.1:60384 as ESP32Client (p2, c1, k15).
+1662992960: Client ESP32Client disconnected.
+1662992964: New connection from 10.5.0.1:60386 on port 1883.
+1662992964: New client connected from 10.5.0.1:60386 as ESP32Client (p2, c1, k15).
+1662992964: Client ESP32Client disconnected.
+1662992967: New connection from 10.5.0.1:60388 on port 1883.
+1662992967: New client connected from 10.5.0.1:60388 as ESP32Client (p2, c1, k15).
+1662992967: Client ESP32Client disconnected.
+1662992971: New connection from 10.5.0.1:62550 on port 1883.
+1662992971: New client connected from 10.5.0.1:62550 as ESP32Client (p2, c1, k15).
+1662992971: Client ESP32Client disconnected.
+1662992974: New connection from 10.5.0.1:62552 on port 1883.
+1662992974: New client connected from 10.5.0.1:62552 as ESP32Client (p2, c1, k15).
+1662992974: Client ESP32Client disconnected.
+1662992977: New connection from 10.5.0.1:62554 on port 1883.
+1662992977: New client connected from 10.5.0.1:62554 as ESP32Client (p2, c1, k15).
+1662992977: Client ESP32Client disconnected.
+1662992980: New connection from 10.5.0.1:60756 on port 1883.
+1662992980: New client connected from 10.5.0.1:60756 as ESP32Client (p2, c1, k15).
+1662992980: Client ESP32Client disconnected.
+1662992984: New connection from 10.5.0.1:60758 on port 1883.
+1662992984: New client connected from 10.5.0.1:60758 as ESP32Client (p2, c1, k15).
+1662992984: Client ESP32Client disconnected.
+1662992987: New connection from 10.5.0.1:60760 on port 1883.
+1662992987: New client connected from 10.5.0.1:60760 as ESP32Client (p2, c1, k15).
+1662992987: Client ESP32Client disconnected.
+1662992990: New connection from 10.5.0.1:63800 on port 1883.
+1662992990: New client connected from 10.5.0.1:63800 as ESP32Client (p2, c1, k15).
+1662992990: Client ESP32Client disconnected.
+1662992993: New connection from 10.5.0.1:63802 on port 1883.
+1662992993: New client connected from 10.5.0.1:63802 as ESP32Client (p2, c1, k15).
+1662992993: Client ESP32Client disconnected.
+1662992997: New connection from 10.5.0.1:63804 on port 1883.
+1662992997: New client connected from 10.5.0.1:63804 as ESP32Client (p2, c1, k15).
+1662992997: Client ESP32Client disconnected.
+1662993000: New connection from 10.5.0.1:55410 on port 1883.
+1662993000: New client connected from 10.5.0.1:55410 as ESP32Client (p2, c1, k15).
+1662993000: Client ESP32Client disconnected.
+1662993004: New connection from 10.5.0.1:55412 on port 1883.
+1662993004: New client connected from 10.5.0.1:55412 as ESP32Client (p2, c1, k15).
+1662993004: Client ESP32Client disconnected.
+1662993007: New connection from 10.5.0.1:55414 on port 1883.
+1662993007: New client connected from 10.5.0.1:55414 as ESP32Client (p2, c1, k15).
+1662993007: Client ESP32Client disconnected.
+1662993010: New connection from 10.5.0.1:59336 on port 1883.
+1662993010: New client connected from 10.5.0.1:59336 as ESP32Client (p2, c1, k15).
+1662993010: Client ESP32Client disconnected.
+1662993014: New connection from 10.5.0.1:59338 on port 1883.
+1662993014: New client connected from 10.5.0.1:59338 as ESP32Client (p2, c1, k15).
+1662993014: Client ESP32Client disconnected.
+1662993017: New connection from 10.5.0.1:59340 on port 1883.
+1662993017: New client connected from 10.5.0.1:59340 as ESP32Client (p2, c1, k15).
+1662993017: Client ESP32Client disconnected.
+1662993020: New connection from 10.5.0.1:59606 on port 1883.
+1662993020: New client connected from 10.5.0.1:59606 as ESP32Client (p2, c1, k15).
+1662993020: Client ESP32Client disconnected.
+1662993023: New connection from 10.5.0.1:59608 on port 1883.
+1662993023: New client connected from 10.5.0.1:59608 as ESP32Client (p2, c1, k15).
+1662993023: Client ESP32Client disconnected.
+1662993026: New connection from 10.5.0.1:59610 on port 1883.
+1662993026: New client connected from 10.5.0.1:59610 as ESP32Client (p2, c1, k15).
+1662993026: Client ESP32Client disconnected.
+1662993029: New connection from 10.5.0.1:60930 on port 1883.
+1662993029: New client connected from 10.5.0.1:60930 as ESP32Client (p2, c1, k15).
+1662993029: Client ESP32Client disconnected.
+1662993032: New connection from 10.5.0.1:60932 on port 1883.
+1662993032: New client connected from 10.5.0.1:60932 as ESP32Client (p2, c1, k15).
+1662993033: Client ESP32Client disconnected.
+1662993036: New connection from 10.5.0.1:60934 on port 1883.
+1662993036: New client connected from 10.5.0.1:60934 as ESP32Client (p2, c1, k15).
+1662993036: Client ESP32Client disconnected.
+1662993039: New connection from 10.5.0.1:58446 on port 1883.
+1662993039: New client connected from 10.5.0.1:58446 as ESP32Client (p2, c1, k15).
+1662993040: Client ESP32Client disconnected.
+1662993043: New connection from 10.5.0.1:58448 on port 1883.
+1662993043: New client connected from 10.5.0.1:58448 as ESP32Client (p2, c1, k15).
+1662993043: Client ESP32Client disconnected.
+1662993046: New connection from 10.5.0.1:58450 on port 1883.
+1662993046: New client connected from 10.5.0.1:58450 as ESP32Client (p2, c1, k15).
+1662993046: Client ESP32Client disconnected.
+1662993049: New connection from 10.5.0.1:61586 on port 1883.
+1662993049: New client connected from 10.5.0.1:61586 as ESP32Client (p2, c1, k15).
+1662993049: Client ESP32Client disconnected.
+1662993052: New connection from 10.5.0.1:61588 on port 1883.
+1662993052: New client connected from 10.5.0.1:61588 as ESP32Client (p2, c1, k15).
+1662993053: Client ESP32Client disconnected.
+1662993056: New connection from 10.5.0.1:61590 on port 1883.
+1662993056: New client connected from 10.5.0.1:61590 as ESP32Client (p2, c1, k15).
+1662993056: Client ESP32Client disconnected.
+1662993059: New connection from 10.5.0.1:59404 on port 1883.
+1662993059: New client connected from 10.5.0.1:59404 as ESP32Client (p2, c1, k15).
+1662993059: Client ESP32Client disconnected.
+1662993063: New connection from 10.5.0.1:59406 on port 1883.
+1662993063: New client connected from 10.5.0.1:59406 as ESP32Client (p2, c1, k15).
+1662993063: Client ESP32Client disconnected.
+1662993066: New connection from 10.5.0.1:59408 on port 1883.
+1662993066: New client connected from 10.5.0.1:59408 as ESP32Client (p2, c1, k15).
+1662993066: Client ESP32Client disconnected.
+1662993069: New connection from 10.5.0.1:61232 on port 1883.
+1662993069: New client connected from 10.5.0.1:61232 as ESP32Client (p2, c1, k15).
+1662993069: Client ESP32Client disconnected.
+1662993072: New connection from 10.5.0.1:61234 on port 1883.
+1662993072: New client connected from 10.5.0.1:61234 as ESP32Client (p2, c1, k15).
+1662993072: Client ESP32Client disconnected.
+1662993075: New connection from 10.5.0.1:61236 on port 1883.
+1662993075: New client connected from 10.5.0.1:61236 as ESP32Client (p2, c1, k15).
+1662993075: Client ESP32Client disconnected.
+1662993078: New connection from 10.5.0.1:55584 on port 1883.
+1662993078: New client connected from 10.5.0.1:55584 as ESP32Client (p2, c1, k15).
+1662993078: Client ESP32Client disconnected.
+1662993081: New connection from 10.5.0.1:55586 on port 1883.
+1662993081: New client connected from 10.5.0.1:55586 as ESP32Client (p2, c1, k15).
+1662993081: Client ESP32Client disconnected.
+1662993085: New connection from 10.5.0.1:55588 on port 1883.
+1662993085: New client connected from 10.5.0.1:55588 as ESP32Client (p2, c1, k15).
+1662993085: Client ESP32Client disconnected.
+1662993089: New connection from 10.5.0.1:61910 on port 1883.
+1662993089: New client connected from 10.5.0.1:61910 as ESP32Client (p2, c1, k15).
+1662993089: Client ESP32Client disconnected.
+1662993092: New connection from 10.5.0.1:61912 on port 1883.
+1662993092: New client connected from 10.5.0.1:61912 as ESP32Client (p2, c1, k15).
+1662993092: Client ESP32Client disconnected.
+1662993096: New connection from 10.5.0.1:61914 on port 1883.
+1662993096: New client connected from 10.5.0.1:61914 as ESP32Client (p2, c1, k15).
+1662993096: Client ESP32Client disconnected.
+1662993099: New connection from 10.5.0.1:57604 on port 1883.
+1662993099: New client connected from 10.5.0.1:57604 as ESP32Client (p2, c1, k15).
+1662993099: Client ESP32Client disconnected.
+1662993103: New connection from 10.5.0.1:57606 on port 1883.
+1662993103: New client connected from 10.5.0.1:57606 as ESP32Client (p2, c1, k15).
+1662993103: Client ESP32Client disconnected.
+1662993106: New connection from 10.5.0.1:57608 on port 1883.
+1662993106: New client connected from 10.5.0.1:57608 as ESP32Client (p2, c1, k15).
+1662993106: Client ESP32Client disconnected.
+1662993109: New connection from 10.5.0.1:59038 on port 1883.
+1662993109: New client connected from 10.5.0.1:59038 as ESP32Client (p2, c1, k15).
+1662993109: Client ESP32Client disconnected.
+1662993112: New connection from 10.5.0.1:59040 on port 1883.
+1662993112: New client connected from 10.5.0.1:59040 as ESP32Client (p2, c1, k15).
+1662993112: Client ESP32Client disconnected.
+1662993116: New connection from 10.5.0.1:59042 on port 1883.
+1662993116: New client connected from 10.5.0.1:59042 as ESP32Client (p2, c1, k15).
+1662993116: Client ESP32Client disconnected.
+1662993119: New connection from 10.5.0.1:57310 on port 1883.
+1662993119: New client connected from 10.5.0.1:57310 as ESP32Client (p2, c1, k15).
+1662993119: Client ESP32Client disconnected.
+1662993123: New connection from 10.5.0.1:57312 on port 1883.
+1662993123: New client connected from 10.5.0.1:57312 as ESP32Client (p2, c1, k15).
+1662993123: Client ESP32Client disconnected.
+1662993126: New connection from 10.5.0.1:57314 on port 1883.
+1662993126: New client connected from 10.5.0.1:57314 as ESP32Client (p2, c1, k15).
+1662993126: Client ESP32Client disconnected.
+1662993129: New connection from 10.5.0.1:56508 on port 1883.
+1662993129: New client connected from 10.5.0.1:56508 as ESP32Client (p2, c1, k15).
+1662993129: Client ESP32Client disconnected.
+1662993132: New connection from 10.5.0.1:56510 on port 1883.
+1662993132: New client connected from 10.5.0.1:56510 as ESP32Client (p2, c1, k15).
+1662993132: Client ESP32Client disconnected.
+1662993135: New connection from 10.5.0.1:56512 on port 1883.
+1662993135: New client connected from 10.5.0.1:56512 as ESP32Client (p2, c1, k15).
+1662993135: Client ESP32Client disconnected.
+1662993138: New connection from 10.5.0.1:57702 on port 1883.
+1662993138: New client connected from 10.5.0.1:57702 as ESP32Client (p2, c1, k15).
+1662993138: Client ESP32Client disconnected.
+1662993142: New connection from 10.5.0.1:57704 on port 1883.
+1662993142: New client connected from 10.5.0.1:57704 as ESP32Client (p2, c1, k15).
+1662993142: Client ESP32Client disconnected.
+1662993145: New connection from 10.5.0.1:57706 on port 1883.
+1662993145: New client connected from 10.5.0.1:57706 as ESP32Client (p2, c1, k15).
+1662993145: Client ESP32Client disconnected.
+1662993148: New connection from 10.5.0.1:57708 on port 1883.
+1662993148: New client connected from 10.5.0.1:57708 as ESP32Client (p2, c1, k15).
+1662993148: Client ESP32Client disconnected.
+1662993151: New connection from 10.5.0.1:61204 on port 1883.
+1662993151: New client connected from 10.5.0.1:61204 as ESP32Client (p2, c1, k15).
+1662993151: Client ESP32Client disconnected.
+1662993155: New connection from 10.5.0.1:61206 on port 1883.
+1662993155: New client connected from 10.5.0.1:61206 as ESP32Client (p2, c1, k15).
+1662993155: Client ESP32Client disconnected.
+1662993158: New connection from 10.5.0.1:61190 on port 1883.
+1662993158: New client connected from 10.5.0.1:61190 as ESP32Client (p2, c1, k15).
+1662993158: Client ESP32Client disconnected.
+1662993162: New connection from 10.5.0.1:61192 on port 1883.
+1662993162: New client connected from 10.5.0.1:61192 as ESP32Client (p2, c1, k15).
+1662993162: Client ESP32Client disconnected.
+1662993165: New connection from 10.5.0.1:61194 on port 1883.
+1662993165: New client connected from 10.5.0.1:61194 as ESP32Client (p2, c1, k15).
+1662993165: Client ESP32Client disconnected.
+1662993168: New connection from 10.5.0.1:56592 on port 1883.
+1662993168: New client connected from 10.5.0.1:56592 as ESP32Client (p2, c1, k15).
+1662993168: Client ESP32Client disconnected.
+1662993171: New connection from 10.5.0.1:56594 on port 1883.
+1662993171: New client connected from 10.5.0.1:56594 as ESP32Client (p2, c1, k15).
+1662993171: Client ESP32Client disconnected.
+1662993175: New connection from 10.5.0.1:56596 on port 1883.
+1662993175: New client connected from 10.5.0.1:56596 as ESP32Client (p2, c1, k15).
+1662993175: Client ESP32Client disconnected.
+1662993178: New connection from 10.5.0.1:57198 on port 1883.
+1662993178: New client connected from 10.5.0.1:57198 as ESP32Client (p2, c1, k15).
+1662993178: Client ESP32Client disconnected.
+1662993182: New connection from 10.5.0.1:57200 on port 1883.
+1662993182: New client connected from 10.5.0.1:57200 as ESP32Client (p2, c1, k15).
+1662993182: Client ESP32Client disconnected.
+1662993185: New connection from 10.5.0.1:57202 on port 1883.
+1662993185: New client connected from 10.5.0.1:57202 as ESP32Client (p2, c1, k15).
+1662993185: Client ESP32Client disconnected.
+1662993188: New connection from 10.5.0.1:56292 on port 1883.
+1662993188: New client connected from 10.5.0.1:56292 as ESP32Client (p2, c1, k15).
+1662993188: Client ESP32Client disconnected.
+1662993191: New connection from 10.5.0.1:56294 on port 1883.
+1662993191: New client connected from 10.5.0.1:56294 as ESP32Client (p2, c1, k15).
+1662993191: Client ESP32Client disconnected.
+1662993194: New connection from 10.5.0.1:56296 on port 1883.
+1662993194: New client connected from 10.5.0.1:56296 as ESP32Client (p2, c1, k15).
+1662993194: Client ESP32Client disconnected.
+1662993197: New connection from 10.5.0.1:56298 on port 1883.
+1662993197: New client connected from 10.5.0.1:56298 as ESP32Client (p2, c1, k15).
+1662993197: Client ESP32Client disconnected.
+1662993201: New connection from 10.5.0.1:55010 on port 1883.
+1662993201: New client connected from 10.5.0.1:55010 as ESP32Client (p2, c1, k15).
+1662993201: Client ESP32Client disconnected.
+1662993204: New connection from 10.5.0.1:55012 on port 1883.
+1662993204: New client connected from 10.5.0.1:55012 as ESP32Client (p2, c1, k15).
+1662993204: Client ESP32Client disconnected.
+1662993207: New connection from 10.5.0.1:55014 on port 1883.
+1662993207: New client connected from 10.5.0.1:55014 as ESP32Client (p2, c1, k15).
+1662993207: Client ESP32Client disconnected.
+1662993210: New connection from 10.5.0.1:56404 on port 1883.
+1662993210: New client connected from 10.5.0.1:56404 as ESP32Client (p2, c1, k15).
+1662993210: Client ESP32Client disconnected.
+1662993213: New connection from 10.5.0.1:56406 on port 1883.
+1662993213: New client connected from 10.5.0.1:56406 as ESP32Client (p2, c1, k15).
+1662993213: Client ESP32Client disconnected.
+1662993217: New connection from 10.5.0.1:56408 on port 1883.
+1662993217: New client connected from 10.5.0.1:56408 as ESP32Client (p2, c1, k15).
+1662993218: Client ESP32Client disconnected.
+1662993220: New connection from 10.5.0.1:56956 on port 1883.
+1662993220: New client connected from 10.5.0.1:56956 as ESP32Client (p2, c1, k15).
+1662993220: Client ESP32Client disconnected.
+1662993225: New connection from 10.5.0.1:56958 on port 1883.
+1662993225: New client connected from 10.5.0.1:56958 as ESP32Client (p2, c1, k15).
+1662993225: Client ESP32Client disconnected.
+1662993228: New connection from 10.5.0.1:57748 on port 1883.
+1662993228: New client connected from 10.5.0.1:57748 as ESP32Client (p2, c1, k15).
+1662993228: Client ESP32Client disconnected.
+1662993231: New connection from 10.5.0.1:57750 on port 1883.
+1662993231: New client connected from 10.5.0.1:57750 as ESP32Client (p2, c1, k15).
+1662993231: Client ESP32Client disconnected.
+1662993234: New connection from 10.5.0.1:57752 on port 1883.
+1662993234: New client connected from 10.5.0.1:57752 as ESP32Client (p2, c1, k15).
+1662993234: Client ESP32Client disconnected.
+1662993237: New connection from 10.5.0.1:57754 on port 1883.
+1662993237: New client connected from 10.5.0.1:57754 as ESP32Client (p2, c1, k15).
+1662993237: Client ESP32Client disconnected.
+1662993241: New connection from 10.5.0.1:62170 on port 1883.
+1662993241: New client connected from 10.5.0.1:62170 as ESP32Client (p2, c1, k15).
+1662993241: Client ESP32Client disconnected.
+1662993244: New connection from 10.5.0.1:62172 on port 1883.
+1662993244: New client connected from 10.5.0.1:62172 as ESP32Client (p2, c1, k15).
+1662993244: Client ESP32Client disconnected.
+1662993247: New connection from 10.5.0.1:62174 on port 1883.
+1662993247: New client connected from 10.5.0.1:62174 as ESP32Client (p2, c1, k15).
+1662993247: Client ESP32Client disconnected.
+1662993252: New connection from 10.5.0.1:57288 on port 1883.
+1662993252: New client connected from 10.5.0.1:57288 as ESP32Client (p2, c1, k15).
+1662993252: Client ESP32Client disconnected.
+1662993255: New connection from 10.5.0.1:57290 on port 1883.
+1662993255: New client connected from 10.5.0.1:57290 as ESP32Client (p2, c1, k15).
+1662993255: Client ESP32Client disconnected.
+1662993258: New connection from 10.5.0.1:59470 on port 1883.
+1662993258: New client connected from 10.5.0.1:59470 as ESP32Client (p2, c1, k15).
+1662993258: Client ESP32Client disconnected.
+1662993262: New connection from 10.5.0.1:59472 on port 1883.
+1662993262: New client connected from 10.5.0.1:59472 as ESP32Client (p2, c1, k15).
+1662993263: Client ESP32Client disconnected.
+1662993266: New connection from 10.5.0.1:59474 on port 1883.
+1662993266: New client connected from 10.5.0.1:59474 as ESP32Client (p2, c1, k15).
+1662993266: Client ESP32Client disconnected.
+1662993269: New connection from 10.5.0.1:56448 on port 1883.
+1662993269: New client connected from 10.5.0.1:56448 as ESP32Client (p2, c1, k15).
+1662993269: Client ESP32Client disconnected.
+1662993272: New connection from 10.5.0.1:56450 on port 1883.
+1662993272: New client connected from 10.5.0.1:56450 as ESP32Client (p2, c1, k15).
+1662993273: Client ESP32Client disconnected.
+1662993276: New connection from 10.5.0.1:56452 on port 1883.
+1662993276: New client connected from 10.5.0.1:56452 as ESP32Client (p2, c1, k15).
+1662993276: Client ESP32Client disconnected.
+1662993279: New connection from 10.5.0.1:63404 on port 1883.
+1662993279: New client connected from 10.5.0.1:63404 as ESP32Client (p2, c1, k15).
+1662993279: Client ESP32Client disconnected.
+1662993282: New connection from 10.5.0.1:63406 on port 1883.
+1662993282: New client connected from 10.5.0.1:63406 as ESP32Client (p2, c1, k15).
+1662993282: Client ESP32Client disconnected.
+1662993285: New connection from 10.5.0.1:63408 on port 1883.
+1662993285: New client connected from 10.5.0.1:63408 as ESP32Client (p2, c1, k15).
+1662993285: Client ESP32Client disconnected.
+1662993288: New connection from 10.5.0.1:62152 on port 1883.
+1662993288: New client connected from 10.5.0.1:62152 as ESP32Client (p2, c1, k15).
+1662993288: Client ESP32Client disconnected.
+1662993292: New connection from 10.5.0.1:62154 on port 1883.
+1662993292: New client connected from 10.5.0.1:62154 as ESP32Client (p2, c1, k15).
+1662993292: Client ESP32Client disconnected.
+1662993295: New connection from 10.5.0.1:62156 on port 1883.
+1662993295: New client connected from 10.5.0.1:62156 as ESP32Client (p2, c1, k15).
+1662993295: Client ESP32Client disconnected.
+1662993298: New connection from 10.5.0.1:64536 on port 1883.
+1662993298: New client connected from 10.5.0.1:64536 as ESP32Client (p2, c1, k15).
+1662993298: Client ESP32Client disconnected.
+1662993301: New connection from 10.5.0.1:64538 on port 1883.
+1662993301: New client connected from 10.5.0.1:64538 as ESP32Client (p2, c1, k15).
+1662993301: Client ESP32Client disconnected.
+1662993305: New connection from 10.5.0.1:64540 on port 1883.
+1662993305: New client connected from 10.5.0.1:64540 as ESP32Client (p2, c1, k15).
+1662993305: Client ESP32Client disconnected.
+1662993308: New connection from 10.5.0.1:62430 on port 1883.
+1662993308: New client connected from 10.5.0.1:62430 as ESP32Client (p2, c1, k15).
+1662993308: Client ESP32Client disconnected.
+1662993311: New connection from 10.5.0.1:62432 on port 1883.
+1662993311: New client connected from 10.5.0.1:62432 as ESP32Client (p2, c1, k15).
+1662993311: Client ESP32Client disconnected.
+1662993314: New connection from 10.5.0.1:62434 on port 1883.
+1662993314: New client connected from 10.5.0.1:62434 as ESP32Client (p2, c1, k15).
+1662993314: Client ESP32Client disconnected.
+1662993317: New connection from 10.5.0.1:62436 on port 1883.
+1662993317: New client connected from 10.5.0.1:62436 as ESP32Client (p2, c1, k15).
+1662993317: Client ESP32Client disconnected.
+1662993320: New connection from 10.5.0.1:56154 on port 1883.
+1662993320: New client connected from 10.5.0.1:56154 as ESP32Client (p2, c1, k15).
+1662993320: Client ESP32Client disconnected.
+1662993324: New connection from 10.5.0.1:56156 on port 1883.
+1662993324: New client connected from 10.5.0.1:56156 as ESP32Client (p2, c1, k15).
+1662993324: Client ESP32Client disconnected.
+1662993327: New connection from 10.5.0.1:56158 on port 1883.
+1662993327: New client connected from 10.5.0.1:56158 as ESP32Client (p2, c1, k15).
+1662993328: Client ESP32Client disconnected.
+1662993331: New connection from 10.5.0.1:63612 on port 1883.
+1662993331: New client connected from 10.5.0.1:63612 as ESP32Client (p2, c1, k15).
+1662993331: Client ESP32Client disconnected.
+1662993334: New connection from 10.5.0.1:63614 on port 1883.
+1662993334: New client connected from 10.5.0.1:63614 as ESP32Client (p2, c1, k15).
+1662993334: Client ESP32Client disconnected.
+1662993338: New connection from 10.5.0.1:63616 on port 1883.
+1662993338: New client connected from 10.5.0.1:63616 as ESP32Client (p2, c1, k15).
+1662993338: Client ESP32Client disconnected.
+1662993341: New connection from 10.5.0.1:55090 on port 1883.
+1662993341: New client connected from 10.5.0.1:55090 as ESP32Client (p2, c1, k15).
+1662993341: Client ESP32Client disconnected.
+1662993344: New connection from 10.5.0.1:55092 on port 1883.
+1662993344: New client connected from 10.5.0.1:55092 as ESP32Client (p2, c1, k15).
+1662993344: Client ESP32Client disconnected.
+1662993347: New connection from 10.5.0.1:55094 on port 1883.
+1662993347: New client connected from 10.5.0.1:55094 as ESP32Client (p2, c1, k15).
+1662993347: Client ESP32Client disconnected.
+1662993350: New connection from 10.5.0.1:63224 on port 1883.
+1662993350: New client connected from 10.5.0.1:63224 as ESP32Client (p2, c1, k15).
+1662993350: Client ESP32Client disconnected.
+1662993353: New connection from 10.5.0.1:63226 on port 1883.
+1662993353: New client connected from 10.5.0.1:63226 as ESP32Client (p2, c1, k15).
+1662993353: Client ESP32Client disconnected.
+1662993356: New connection from 10.5.0.1:63228 on port 1883.
+1662993356: New client connected from 10.5.0.1:63228 as ESP32Client (p2, c1, k15).
+1662993356: Client ESP32Client disconnected.
+1662993359: New connection from 10.5.0.1:64130 on port 1883.
+1662993359: New client connected from 10.5.0.1:64130 as ESP32Client (p2, c1, k15).
+1662993359: Client ESP32Client disconnected.
+1662993363: New connection from 10.5.0.1:64132 on port 1883.
+1662993363: New client connected from 10.5.0.1:64132 as ESP32Client (p2, c1, k15).
+1662993363: Client ESP32Client disconnected.
+1662993367: New connection from 10.5.0.1:64134 on port 1883.
+1662993367: New client connected from 10.5.0.1:64134 as ESP32Client (p2, c1, k15).
+1662993367: Client ESP32Client disconnected.
+1662993370: New connection from 10.5.0.1:57348 on port 1883.
+1662993370: New client connected from 10.5.0.1:57348 as ESP32Client (p2, c1, k15).
+1662993370: Client ESP32Client disconnected.
+1662993373: New connection from 10.5.0.1:57350 on port 1883.
+1662993373: New client connected from 10.5.0.1:57350 as ESP32Client (p2, c1, k15).
+1662993373: Client ESP32Client disconnected.
+1662993376: New connection from 10.5.0.1:57352 on port 1883.
+1662993376: New client connected from 10.5.0.1:57352 as ESP32Client (p2, c1, k15).
+1662993376: Client ESP32Client disconnected.
+1662993379: New connection from 10.5.0.1:57772 on port 1883.
+1662993379: New client connected from 10.5.0.1:57772 as ESP32Client (p2, c1, k15).
+1662993379: Client ESP32Client disconnected.
+1662993383: New connection from 10.5.0.1:57774 on port 1883.
+1662993383: New client connected from 10.5.0.1:57774 as ESP32Client (p2, c1, k15).
+1662993383: Client ESP32Client disconnected.
+1662993386: New connection from 10.5.0.1:57776 on port 1883.
+1662993386: New client connected from 10.5.0.1:57776 as ESP32Client (p2, c1, k15).
+1662993386: Client ESP32Client disconnected.
+1662993389: New connection from 10.5.0.1:64758 on port 1883.
+1662993389: New client connected from 10.5.0.1:64758 as ESP32Client (p2, c1, k15).
+1662993389: Client ESP32Client disconnected.
+1662993392: New connection from 10.5.0.1:64760 on port 1883.
+1662993392: New client connected from 10.5.0.1:64760 as ESP32Client (p2, c1, k15).
+1662993392: Client ESP32Client disconnected.
+1662993395: New connection from 10.5.0.1:64762 on port 1883.
+1662993395: New client connected from 10.5.0.1:64762 as ESP32Client (p2, c1, k15).
+1662993395: Client ESP32Client disconnected.
+1662993398: New connection from 10.5.0.1:61356 on port 1883.
+1662993398: New client connected from 10.5.0.1:61356 as ESP32Client (p2, c1, k15).
+1662993398: Client ESP32Client disconnected.
+1662993401: New connection from 10.5.0.1:61358 on port 1883.
+1662993401: New client connected from 10.5.0.1:61358 as ESP32Client (p2, c1, k15).
+1662993401: Client ESP32Client disconnected.
+1662993405: New connection from 10.5.0.1:61360 on port 1883.
+1662993405: New client connected from 10.5.0.1:61360 as ESP32Client (p2, c1, k15).
+1662993405: Client ESP32Client disconnected.
+1662993408: New connection from 10.5.0.1:60888 on port 1883.
+1662993408: New client connected from 10.5.0.1:60888 as ESP32Client (p2, c1, k15).
+1662993408: Client ESP32Client disconnected.
+1662993412: New connection from 10.5.0.1:60890 on port 1883.
+1662993412: New client connected from 10.5.0.1:60890 as ESP32Client (p2, c1, k15).
+1662993412: Client ESP32Client disconnected.
+1662993415: New connection from 10.5.0.1:60892 on port 1883.
+1662993415: New client connected from 10.5.0.1:60892 as ESP32Client (p2, c1, k15).
+1662993415: Client ESP32Client disconnected.
+1662993418: New connection from 10.5.0.1:62960 on port 1883.
+1662993418: New client connected from 10.5.0.1:62960 as ESP32Client (p2, c1, k15).
+1662993418: Client ESP32Client disconnected.
+1662993422: New connection from 10.5.0.1:62962 on port 1883.
+1662993422: New client connected from 10.5.0.1:62962 as ESP32Client (p2, c1, k15).
+1662993422: Client ESP32Client disconnected.
+1662993425: New connection from 10.5.0.1:62964 on port 1883.
+1662993425: New client connected from 10.5.0.1:62964 as ESP32Client (p2, c1, k15).
+1662993425: Client ESP32Client disconnected.
+1662993428: New connection from 10.5.0.1:62966 on port 1883.
+1662993428: New client connected from 10.5.0.1:62966 as ESP32Client (p2, c1, k15).
+1662993428: Client ESP32Client disconnected.
+1662993431: New connection from 10.5.0.1:63904 on port 1883.
+1662993431: New client connected from 10.5.0.1:63904 as ESP32Client (p2, c1, k15).
+1662993431: Client ESP32Client disconnected.
+1662993434: New connection from 10.5.0.1:63906 on port 1883.
+1662993434: New client connected from 10.5.0.1:63906 as ESP32Client (p2, c1, k15).
+1662993434: Client ESP32Client disconnected.
+1662993438: New connection from 10.5.0.1:63908 on port 1883.
+1662993438: New client connected from 10.5.0.1:63908 as ESP32Client (p2, c1, k15).
+1662993438: Client ESP32Client disconnected.
+1662993441: New connection from 10.5.0.1:59050 on port 1883.
+1662993441: New client connected from 10.5.0.1:59050 as ESP32Client (p2, c1, k15).
+1662993441: Client ESP32Client disconnected.
+1662993444: New connection from 10.5.0.1:59052 on port 1883.
+1662993444: New client connected from 10.5.0.1:59052 as ESP32Client (p2, c1, k15).
+1662993444: Client ESP32Client disconnected.
+1662993447: New connection from 10.5.0.1:59054 on port 1883.
+1662993447: New client connected from 10.5.0.1:59054 as ESP32Client (p2, c1, k15).
+1662993447: Client ESP32Client disconnected.
+1662993450: New connection from 10.5.0.1:63922 on port 1883.
+1662993450: New client connected from 10.5.0.1:63922 as ESP32Client (p2, c1, k15).
+1662993450: Client ESP32Client disconnected.
+1662993454: New connection from 10.5.0.1:63924 on port 1883.
+1662993454: New client connected from 10.5.0.1:63924 as ESP32Client (p2, c1, k15).
+1662993454: Client ESP32Client disconnected.
+1662993457: New connection from 10.5.0.1:63926 on port 1883.
+1662993457: New client connected from 10.5.0.1:63926 as ESP32Client (p2, c1, k15).
+1662993457: Client ESP32Client disconnected.
+1662993462: New connection from 10.5.0.1:59142 on port 1883.
+1662993462: New client connected from 10.5.0.1:59142 as ESP32Client (p2, c1, k15).
+1662993462: Client ESP32Client disconnected.
+1662993466: New connection from 10.5.0.1:59144 on port 1883.
+1662993466: New client connected from 10.5.0.1:59144 as ESP32Client (p2, c1, k15).
+1662993466: Client ESP32Client disconnected.
+1662993469: New connection from 10.5.0.1:58846 on port 1883.
+1662993469: New client connected from 10.5.0.1:58846 as ESP32Client (p2, c1, k15).
+1662993469: Client ESP32Client disconnected.
+1662993472: New connection from 10.5.0.1:58848 on port 1883.
+1662993472: New client connected from 10.5.0.1:58848 as ESP32Client (p2, c1, k15).
+1662993472: Client ESP32Client disconnected.
+1662993476: New connection from 10.5.0.1:58850 on port 1883.
+1662993476: New client connected from 10.5.0.1:58850 as ESP32Client (p2, c1, k15).
+1662993476: Client ESP32Client disconnected.
+1662993479: New connection from 10.5.0.1:56270 on port 1883.
+1662993479: New client connected from 10.5.0.1:56270 as ESP32Client (p2, c1, k15).
+1662993479: Client ESP32Client disconnected.
+1662993482: New connection from 10.5.0.1:56272 on port 1883.
+1662993482: New client connected from 10.5.0.1:56272 as ESP32Client (p2, c1, k15).
+1662993482: Client ESP32Client disconnected.
+1662993485: New connection from 10.5.0.1:56274 on port 1883.
+1662993485: New client connected from 10.5.0.1:56274 as ESP32Client (p2, c1, k15).
+1662993485: Client ESP32Client disconnected.
+1662993502: New connection from 10.5.0.1:63776 on port 1883.
+1662993502: New client connected from 10.5.0.1:63776 as ESP32Client (p2, c1, k15).
+1662993502: Client ESP32Client disconnected.
+1662993505: New connection from 10.5.0.1:63778 on port 1883.
+1662993505: New client connected from 10.5.0.1:63778 as ESP32Client (p2, c1, k15).
+1662993505: Client ESP32Client disconnected.
+1662993508: New connection from 10.5.0.1:63540 on port 1883.
+1662993508: New client connected from 10.5.0.1:63540 as ESP32Client (p2, c1, k15).
+1662993508: Client ESP32Client disconnected.
+1662993511: New connection from 10.5.0.1:63542 on port 1883.
+1662993511: New client connected from 10.5.0.1:63542 as ESP32Client (p2, c1, k15).
+1662993511: Client ESP32Client disconnected.
+1662993514: New connection from 10.5.0.1:63544 on port 1883.
+1662993514: New client connected from 10.5.0.1:63544 as ESP32Client (p2, c1, k15).
+1662993514: Client ESP32Client disconnected.
+1662993518: New connection from 10.5.0.1:56294 on port 1883.
+1662993518: New client connected from 10.5.0.1:56294 as ESP32Client (p2, c1, k15).
+1662993518: Client ESP32Client disconnected.
+1662993522: New connection from 10.5.0.1:56296 on port 1883.
+1662993522: New client connected from 10.5.0.1:56296 as ESP32Client (p2, c1, k15).
+1662993523: Client ESP32Client disconnected.
+1662993526: New connection from 10.5.0.1:56298 on port 1883.
+1662993526: New client connected from 10.5.0.1:56298 as ESP32Client (p2, c1, k15).
+1662993526: Client ESP32Client disconnected.
+1662993529: New connection from 10.5.0.1:55782 on port 1883.
+1662993529: New client connected from 10.5.0.1:55782 as ESP32Client (p2, c1, k15).
+1662993529: Client ESP32Client disconnected.
+1662993532: New connection from 10.5.0.1:55784 on port 1883.
+1662993532: New client connected from 10.5.0.1:55784 as ESP32Client (p2, c1, k15).
+1662993532: Client ESP32Client disconnected.
+1662993536: New connection from 10.5.0.1:55786 on port 1883.
+1662993536: New client connected from 10.5.0.1:55786 as ESP32Client (p2, c1, k15).
+1662993536: Client ESP32Client disconnected.
+1662993539: New connection from 10.5.0.1:55484 on port 1883.
+1662993539: New client connected from 10.5.0.1:55484 as ESP32Client (p2, c1, k15).
+1662993539: Client ESP32Client disconnected.
+1662993542: New connection from 10.5.0.1:55486 on port 1883.
+1662993542: New client connected from 10.5.0.1:55486 as ESP32Client (p2, c1, k15).
+1662993542: Client ESP32Client disconnected.
+1662993545: New connection from 10.5.0.1:55488 on port 1883.
+1662993545: New client connected from 10.5.0.1:55488 as ESP32Client (p2, c1, k15).
+1662993545: Client ESP32Client disconnected.
+1662993576: New connection from 10.5.0.1:58270 on port 1883.
+1662993576: New client connected from 10.5.0.1:58270 as ESP32Client (p2, c1, k15).
+1662993576: Client ESP32Client disconnected.
+1662993579: New connection from 10.5.0.1:55236 on port 1883.
+1662993579: New client connected from 10.5.0.1:55236 as ESP32Client (p2, c1, k15).
+1662993579: Client ESP32Client disconnected.
+1662993584: New connection from 10.5.0.1:55238 on port 1883.
+1662993584: New client connected from 10.5.0.1:55238 as ESP32Client (p2, c1, k15).
+1662993584: Client ESP32Client disconnected.
+1662993587: New connection from 10.5.0.1:55240 on port 1883.
+1662993587: New client connected from 10.5.0.1:55240 as ESP32Client (p2, c1, k15).
+1662993587: Client ESP32Client disconnected.
+1662993590: New connection from 10.5.0.1:63170 on port 1883.
+1662993590: New client connected from 10.5.0.1:63170 as ESP32Client (p2, c1, k15).
+1662993590: Client ESP32Client disconnected.
+1662993593: New connection from 10.5.0.1:63172 on port 1883.
+1662993593: New client connected from 10.5.0.1:63172 as ESP32Client (p2, c1, k15).
+1662993593: Client ESP32Client disconnected.
+1662993596: New connection from 10.5.0.1:63174 on port 1883.
+1662993596: New client connected from 10.5.0.1:63174 as ESP32Client (p2, c1, k15).
+1662993596: Client ESP32Client disconnected.
+1662993599: New connection from 10.5.0.1:62778 on port 1883.
+1662993599: New client connected from 10.5.0.1:62778 as ESP32Client (p2, c1, k15).
+1662993600: Client ESP32Client disconnected.
+1662993603: New connection from 10.5.0.1:62780 on port 1883.
+1662993603: New client connected from 10.5.0.1:62780 as ESP32Client (p2, c1, k15).
+1662993604: Client ESP32Client disconnected.
+1662993606: New connection from 10.5.0.1:62782 on port 1883.
+1662993606: New client connected from 10.5.0.1:62782 as ESP32Client (p2, c1, k15).
+1662993606: Client ESP32Client disconnected.
+1662993610: New connection from 10.5.0.1:59868 on port 1883.
+1662993610: New client connected from 10.5.0.1:59868 as ESP32Client (p2, c1, k15).
+1662993610: Client ESP32Client disconnected.
+1662993614: New connection from 10.5.0.1:59870 on port 1883.
+1662993614: New client connected from 10.5.0.1:59870 as ESP32Client (p2, c1, k15).
+1662993614: Client ESP32Client disconnected.
+1662993618: New connection from 10.5.0.1:63422 on port 1883.
+1662993618: New client connected from 10.5.0.1:63422 as ESP32Client (p2, c1, k15).
+1662993618: Client ESP32Client disconnected.
+1662993622: New connection from 10.5.0.1:63424 on port 1883.
+1662993622: New client connected from 10.5.0.1:63424 as ESP32Client (p2, c1, k15).
+1662993622: Client ESP32Client disconnected.
+1662993625: New connection from 10.5.0.1:63426 on port 1883.
+1662993625: New client connected from 10.5.0.1:63426 as ESP32Client (p2, c1, k15).
+1662993626: Client ESP32Client disconnected.
+1662993629: New connection from 10.5.0.1:56780 on port 1883.
+1662993629: New client connected from 10.5.0.1:56780 as ESP32Client (p2, c1, k15).
+1662993629: Client ESP32Client disconnected.
+1662993632: New connection from 10.5.0.1:56782 on port 1883.
+1662993632: New client connected from 10.5.0.1:56782 as ESP32Client (p2, c1, k15).
+1662993632: Client ESP32Client disconnected.
+1662993635: New connection from 10.5.0.1:56784 on port 1883.
+1662993635: New client connected from 10.5.0.1:56784 as ESP32Client (p2, c1, k15).
+1662993636: Client ESP32Client disconnected.
+1662993639: New connection from 10.5.0.1:62182 on port 1883.
+1662993639: New client connected from 10.5.0.1:62182 as ESP32Client (p2, c1, k15).
+1662993639: Client ESP32Client disconnected.
+1662993642: New connection from 10.5.0.1:62184 on port 1883.
+1662993642: New client connected from 10.5.0.1:62184 as ESP32Client (p2, c1, k15).
+1662993642: Client ESP32Client disconnected.
+1662993645: New connection from 10.5.0.1:62186 on port 1883.
+1662993645: New client connected from 10.5.0.1:62186 as ESP32Client (p2, c1, k15).
+1662993645: Client ESP32Client disconnected.
+1662993648: New connection from 10.5.0.1:63688 on port 1883.
+1662993648: New client connected from 10.5.0.1:63688 as ESP32Client (p2, c1, k15).
+1662993648: Client ESP32Client disconnected.
+1662993652: New connection from 10.5.0.1:63690 on port 1883.
+1662993652: New client connected from 10.5.0.1:63690 as ESP32Client (p2, c1, k15).
+1662993652: Client ESP32Client disconnected.
+1662993655: New connection from 10.5.0.1:63692 on port 1883.
+1662993655: New client connected from 10.5.0.1:63692 as ESP32Client (p2, c1, k15).
+1662993656: Client ESP32Client disconnected.
+1662993659: New connection from 10.5.0.1:57646 on port 1883.
+1662993659: New client connected from 10.5.0.1:57646 as ESP32Client (p2, c1, k15).
+1662993659: Client ESP32Client disconnected.
+1662993662: New connection from 10.5.0.1:57648 on port 1883.
+1662993662: New client connected from 10.5.0.1:57648 as ESP32Client (p2, c1, k15).
+1662993662: Client ESP32Client disconnected.
+1662993665: New connection from 10.5.0.1:57650 on port 1883.
+1662993665: New client connected from 10.5.0.1:57650 as ESP32Client (p2, c1, k15).
+1662993665: Client ESP32Client disconnected.
+1662993669: New connection from 10.5.0.1:55666 on port 1883.
+1662993669: New client connected from 10.5.0.1:55666 as ESP32Client (p2, c1, k15).
+1662993669: Client ESP32Client disconnected.
+1662993672: New connection from 10.5.0.1:55668 on port 1883.
+1662993672: New client connected from 10.5.0.1:55668 as ESP32Client (p2, c1, k15).
+1662993672: Client ESP32Client disconnected.
+1662993675: New connection from 10.5.0.1:55670 on port 1883.
+1662993675: New client connected from 10.5.0.1:55670 as ESP32Client (p2, c1, k15).
+1662993675: Client ESP32Client disconnected.
+1662993678: New connection from 10.5.0.1:55104 on port 1883.
+1662993678: New client connected from 10.5.0.1:55104 as ESP32Client (p2, c1, k15).
+1662993678: Client ESP32Client disconnected.
+1662993682: New connection from 10.5.0.1:55106 on port 1883.
+1662993682: New client connected from 10.5.0.1:55106 as ESP32Client (p2, c1, k15).
+1662993682: Client ESP32Client disconnected.
+1662993685: New connection from 10.5.0.1:55108 on port 1883.
+1662993685: New client connected from 10.5.0.1:55108 as ESP32Client (p2, c1, k15).
+1662993685: Client ESP32Client disconnected.
+1662993689: New connection from 10.5.0.1:65510 on port 1883.
+1662993689: New client connected from 10.5.0.1:65510 as ESP32Client (p2, c1, k15).
+1662993689: Client ESP32Client disconnected.
+1662993692: New connection from 10.5.0.1:65512 on port 1883.
+1662993692: New client connected from 10.5.0.1:65512 as ESP32Client (p2, c1, k15).
+1662993692: Client ESP32Client disconnected.
+1662993696: New connection from 10.5.0.1:65514 on port 1883.
+1662993696: New client connected from 10.5.0.1:65514 as ESP32Client (p2, c1, k15).
+1662993696: Client ESP32Client disconnected.
+1662993699: New connection from 10.5.0.1:62986 on port 1883.
+1662993699: New client connected from 10.5.0.1:62986 as ESP32Client (p2, c1, k15).
+1662993700: Client ESP32Client disconnected.
+1662993702: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1662993703: New connection from 10.5.0.1:62988 on port 1883.
+1662993703: New client connected from 10.5.0.1:62988 as ESP32Client (p2, c1, k15).
+1662993703: Client ESP32Client disconnected.
+1662993707: New connection from 10.5.0.1:62990 on port 1883.
+1662993707: New client connected from 10.5.0.1:62990 as ESP32Client (p2, c1, k15).
+1662993707: Client ESP32Client disconnected.
+1662993711: New connection from 10.5.0.1:60838 on port 1883.
+1662993711: New client connected from 10.5.0.1:60838 as ESP32Client (p2, c1, k15).
+1662993711: Client ESP32Client disconnected.
+1662993714: New connection from 10.5.0.1:60840 on port 1883.
+1662993714: New client connected from 10.5.0.1:60840 as ESP32Client (p2, c1, k15).
+1662993714: Client ESP32Client disconnected.
+1662993718: New connection from 10.5.0.1:57858 on port 1883.
+1662993718: New client connected from 10.5.0.1:57858 as ESP32Client (p2, c1, k15).
+1662993718: Client ESP32Client disconnected.
+1662993721: New connection from 10.5.0.1:57860 on port 1883.
+1662993721: New client connected from 10.5.0.1:57860 as ESP32Client (p2, c1, k15).
+1662993721: Client ESP32Client disconnected.
+1662993724: New connection from 10.5.0.1:57862 on port 1883.
+1662993724: New client connected from 10.5.0.1:57862 as ESP32Client (p2, c1, k15).
+1662993725: Client ESP32Client disconnected.
+1662993728: New connection from 10.5.0.1:62352 on port 1883.
+1662993728: New client connected from 10.5.0.1:62352 as ESP32Client (p2, c1, k15).
+1662993728: Client ESP32Client disconnected.
+1662993731: New connection from 10.5.0.1:62354 on port 1883.
+1662993731: New client connected from 10.5.0.1:62354 as ESP32Client (p2, c1, k15).
+1662993731: Client ESP32Client disconnected.
+1662993734: New connection from 10.5.0.1:62356 on port 1883.
+1662993734: New client connected from 10.5.0.1:62356 as ESP32Client (p2, c1, k15).
+1662993734: Client ESP32Client disconnected.
+1662993738: New connection from 10.5.0.1:61732 on port 1883.
+1662993738: New client connected from 10.5.0.1:61732 as ESP32Client (p2, c1, k15).
+1662993738: Client ESP32Client disconnected.
+1662993741: New connection from 10.5.0.1:61734 on port 1883.
+1662993741: New client connected from 10.5.0.1:61734 as ESP32Client (p2, c1, k15).
+1662993741: Client ESP32Client disconnected.
+1662993744: New connection from 10.5.0.1:61736 on port 1883.
+1662993744: New client connected from 10.5.0.1:61736 as ESP32Client (p2, c1, k15).
+1662993745: Client ESP32Client disconnected.
+1662993748: New connection from 10.5.0.1:56230 on port 1883.
+1662993748: New client connected from 10.5.0.1:56230 as ESP32Client (p2, c1, k15).
+1662993748: Client ESP32Client disconnected.
+1662993751: New connection from 10.5.0.1:56232 on port 1883.
+1662993751: New client connected from 10.5.0.1:56232 as ESP32Client (p2, c1, k15).
+1662993751: Client ESP32Client disconnected.
+1662993754: New connection from 10.5.0.1:56234 on port 1883.
+1662993754: New client connected from 10.5.0.1:56234 as ESP32Client (p2, c1, k15).
+1662993754: Client ESP32Client disconnected.
+1662993757: New connection from 10.5.0.1:56236 on port 1883.
+1662993757: New client connected from 10.5.0.1:56236 as ESP32Client (p2, c1, k15).
+1662993757: Client ESP32Client disconnected.
+1662993760: New connection from 10.5.0.1:56660 on port 1883.
+1662993760: New client connected from 10.5.0.1:56660 as ESP32Client (p2, c1, k15).
+1662993760: Client ESP32Client disconnected.
+1662993763: New connection from 10.5.0.1:56662 on port 1883.
+1662993763: New client connected from 10.5.0.1:56662 as ESP32Client (p2, c1, k15).
+1662993763: Client ESP32Client disconnected.
+1662993766: New connection from 10.5.0.1:56664 on port 1883.
+1662993766: New client connected from 10.5.0.1:56664 as ESP32Client (p2, c1, k15).
+1662993766: Client ESP32Client disconnected.
+1662993769: New connection from 10.5.0.1:61418 on port 1883.
+1662993769: New client connected from 10.5.0.1:61418 as ESP32Client (p2, c1, k15).
+1662993769: Client ESP32Client disconnected.
+1662993772: New connection from 10.5.0.1:61420 on port 1883.
+1662993772: New client connected from 10.5.0.1:61420 as ESP32Client (p2, c1, k15).
+1662993772: Client ESP32Client disconnected.
+1662993776: New connection from 10.5.0.1:61422 on port 1883.
+1662993776: New client connected from 10.5.0.1:61422 as ESP32Client (p2, c1, k15).
+1662993776: Client ESP32Client disconnected.
+1662993780: New connection from 10.5.0.1:55772 on port 1883.
+1662993780: New client connected from 10.5.0.1:55772 as ESP32Client (p2, c1, k15).
+1662993780: Client ESP32Client disconnected.
+1662993783: New connection from 10.5.0.1:55774 on port 1883.
+1662993783: New client connected from 10.5.0.1:55774 as ESP32Client (p2, c1, k15).
+1662993783: Client ESP32Client disconnected.
+1662993786: New connection from 10.5.0.1:55776 on port 1883.
+1662993786: New client connected from 10.5.0.1:55776 as ESP32Client (p2, c1, k15).
+1662993786: Client ESP32Client disconnected.
+1662993790: New connection from 10.5.0.1:63306 on port 1883.
+1662993790: New client connected from 10.5.0.1:63306 as ESP32Client (p2, c1, k15).
+1662993790: Client ESP32Client disconnected.
+1662993793: New connection from 10.5.0.1:63308 on port 1883.
+1662993793: New client connected from 10.5.0.1:63308 as ESP32Client (p2, c1, k15).
+1662993793: Client ESP32Client disconnected.
+1662993796: New connection from 10.5.0.1:63310 on port 1883.
+1662993796: New client connected from 10.5.0.1:63310 as ESP32Client (p2, c1, k15).
+1662993796: Client ESP32Client disconnected.
+1662993800: New connection from 10.5.0.1:58338 on port 1883.
+1662993800: New client connected from 10.5.0.1:58338 as ESP32Client (p2, c1, k15).
+1662993800: Client ESP32Client disconnected.
+1662993803: New connection from 10.5.0.1:58340 on port 1883.
+1662993803: New client connected from 10.5.0.1:58340 as ESP32Client (p2, c1, k15).
+1662993803: Client ESP32Client disconnected.
+1662993806: New connection from 10.5.0.1:58342 on port 1883.
+1662993806: New client connected from 10.5.0.1:58342 as ESP32Client (p2, c1, k15).
+1662993806: Client ESP32Client disconnected.
+1662993809: New connection from 10.5.0.1:59998 on port 1883.
+1662993809: New client connected from 10.5.0.1:59998 as ESP32Client (p2, c1, k15).
+1662993809: Client ESP32Client disconnected.
+1662993813: New connection from 10.5.0.1:60000 on port 1883.
+1662993813: New client connected from 10.5.0.1:60000 as ESP32Client (p2, c1, k15).
+1662993813: Client ESP32Client disconnected.
+1662993816: New connection from 10.5.0.1:60002 on port 1883.
+1662993816: New client connected from 10.5.0.1:60002 as ESP32Client (p2, c1, k15).
+1662993816: Client ESP32Client disconnected.
+1662993819: New connection from 10.5.0.1:55370 on port 1883.
+1662993819: New client connected from 10.5.0.1:55370 as ESP32Client (p2, c1, k15).
+1662993819: Client ESP32Client disconnected.
+1662993822: New connection from 10.5.0.1:55372 on port 1883.
+1662993822: New client connected from 10.5.0.1:55372 as ESP32Client (p2, c1, k15).
+1662993822: Client ESP32Client disconnected.
+1662993826: New connection from 10.5.0.1:55374 on port 1883.
+1662993826: New client connected from 10.5.0.1:55374 as ESP32Client (p2, c1, k15).
+1662993826: Client ESP32Client disconnected.
+1662993829: New connection from 10.5.0.1:63676 on port 1883.
+1662993829: New client connected from 10.5.0.1:63676 as ESP32Client (p2, c1, k15).
+1662993829: Client ESP32Client disconnected.
+1662993832: New connection from 10.5.0.1:63678 on port 1883.
+1662993832: New client connected from 10.5.0.1:63678 as ESP32Client (p2, c1, k15).
+1662993833: Client ESP32Client disconnected.
+1662993836: New connection from 10.5.0.1:63680 on port 1883.
+1662993836: New client connected from 10.5.0.1:63680 as ESP32Client (p2, c1, k15).
+1662993836: Client ESP32Client disconnected.
+1662993839: New connection from 10.5.0.1:57226 on port 1883.
+1662993839: New client connected from 10.5.0.1:57226 as ESP32Client (p2, c1, k15).
+1662993839: Client ESP32Client disconnected.
+1662993842: New connection from 10.5.0.1:57228 on port 1883.
+1662993842: New client connected from 10.5.0.1:57228 as ESP32Client (p2, c1, k15).
+1662993842: Client ESP32Client disconnected.
+1662993845: New connection from 10.5.0.1:57230 on port 1883.
+1662993845: New client connected from 10.5.0.1:57230 as ESP32Client (p2, c1, k15).
+1662993845: Client ESP32Client disconnected.
+1662993848: New connection from 10.5.0.1:59484 on port 1883.
+1662993848: New client connected from 10.5.0.1:59484 as ESP32Client (p2, c1, k15).
+1662993848: Client ESP32Client disconnected.
+1662993852: New connection from 10.5.0.1:59486 on port 1883.
+1662993852: New client connected from 10.5.0.1:59486 as ESP32Client (p2, c1, k15).
+1662993852: Client ESP32Client disconnected.
+1662993855: New connection from 10.5.0.1:59488 on port 1883.
+1662993855: New client connected from 10.5.0.1:59488 as ESP32Client (p2, c1, k15).
+1662993855: Client ESP32Client disconnected.
+1662993858: New connection from 10.5.0.1:59292 on port 1883.
+1662993858: New client connected from 10.5.0.1:59292 as ESP32Client (p2, c1, k15).
+1662993858: Client ESP32Client disconnected.
+1662993861: New connection from 10.5.0.1:59294 on port 1883.
+1662993861: New client connected from 10.5.0.1:59294 as ESP32Client (p2, c1, k15).
+1662993861: Client ESP32Client disconnected.
+1662993864: New connection from 10.5.0.1:59296 on port 1883.
+1662993864: New client connected from 10.5.0.1:59296 as ESP32Client (p2, c1, k15).
+1662993864: Client ESP32Client disconnected.
+1662993867: New connection from 10.5.0.1:59298 on port 1883.
+1662993867: New client connected from 10.5.0.1:59298 as ESP32Client (p2, c1, k15).
+1662993867: Client ESP32Client disconnected.
+1662993871: New connection from 10.5.0.1:56858 on port 1883.
+1662993871: New client connected from 10.5.0.1:56858 as ESP32Client (p2, c1, k15).
+1662993871: Client ESP32Client disconnected.
+1662993874: New connection from 10.5.0.1:56860 on port 1883.
+1662993874: New client connected from 10.5.0.1:56860 as ESP32Client (p2, c1, k15).
+1662993874: Client ESP32Client disconnected.
+1662993877: New connection from 10.5.0.1:56862 on port 1883.
+1662993877: New client connected from 10.5.0.1:56862 as ESP32Client (p2, c1, k15).
+1662993877: Client ESP32Client disconnected.
+1662993880: New connection from 10.5.0.1:56038 on port 1883.
+1662993880: New client connected from 10.5.0.1:56038 as ESP32Client (p2, c1, k15).
+1662993880: Client ESP32Client disconnected.
+1662993883: New connection from 10.5.0.1:56040 on port 1883.
+1662993883: New client connected from 10.5.0.1:56040 as ESP32Client (p2, c1, k15).
+1662993883: Client ESP32Client disconnected.
+1662993886: New connection from 10.5.0.1:56042 on port 1883.
+1662993887: New client connected from 10.5.0.1:56042 as ESP32Client (p2, c1, k15).
+1662993887: Client ESP32Client disconnected.
+1662993890: New connection from 10.5.0.1:61248 on port 1883.
+1662993890: New client connected from 10.5.0.1:61248 as ESP32Client (p2, c1, k15).
+1662993890: Client ESP32Client disconnected.
+1662993895: New connection from 10.5.0.1:61250 on port 1883.
+1662993895: New client connected from 10.5.0.1:61250 as ESP32Client (p2, c1, k15).
+1662993895: Client ESP32Client disconnected.
+1662993898: New connection from 10.5.0.1:58960 on port 1883.
+1662993898: New client connected from 10.5.0.1:58960 as ESP32Client (p2, c1, k15).
+1662993898: Client ESP32Client disconnected.
+1662993901: New connection from 10.5.0.1:58962 on port 1883.
+1662993901: New client connected from 10.5.0.1:58962 as ESP32Client (p2, c1, k15).
+1662993901: Client ESP32Client disconnected.
+1662993904: New connection from 10.5.0.1:58964 on port 1883.
+1662993904: New client connected from 10.5.0.1:58964 as ESP32Client (p2, c1, k15).
+1662993904: Client ESP32Client disconnected.
+1662993907: New connection from 10.5.0.1:64780 on port 1883.
+1662993907: New client connected from 10.5.0.1:64780 as ESP32Client (p2, c1, k15).
+1662993908: Client ESP32Client disconnected.
+1662993911: New connection from 10.5.0.1:64782 on port 1883.
+1662993911: New client connected from 10.5.0.1:64782 as ESP32Client (p2, c1, k15).
+1662993911: Client ESP32Client disconnected.
+1662993914: New connection from 10.5.0.1:64784 on port 1883.
+1662993914: New client connected from 10.5.0.1:64784 as ESP32Client (p2, c1, k15).
+1662993914: Client ESP32Client disconnected.
+1662993917: New connection from 10.5.0.1:64786 on port 1883.
+1662993917: New client connected from 10.5.0.1:64786 as ESP32Client (p2, c1, k15).
+1662993917: Client ESP32Client disconnected.
+1662993920: New connection from 10.5.0.1:59274 on port 1883.
+1662993920: New client connected from 10.5.0.1:59274 as ESP32Client (p2, c1, k15).
+1662993920: Client ESP32Client disconnected.
+1662993923: New connection from 10.5.0.1:59276 on port 1883.
+1662993923: New client connected from 10.5.0.1:59276 as ESP32Client (p2, c1, k15).
+1662993923: Client ESP32Client disconnected.
+1662993926: New connection from 10.5.0.1:59278 on port 1883.
+1662993926: New client connected from 10.5.0.1:59278 as ESP32Client (p2, c1, k15).
+1662993926: Client ESP32Client disconnected.
+1662993930: New connection from 10.5.0.1:62428 on port 1883.
+1662993930: New client connected from 10.5.0.1:62428 as ESP32Client (p2, c1, k15).
+1662993930: Client ESP32Client disconnected.
+1662993933: New connection from 10.5.0.1:62430 on port 1883.
+1662993933: New client connected from 10.5.0.1:62430 as ESP32Client (p2, c1, k15).
+1662993933: Client ESP32Client disconnected.
+1662993936: New connection from 10.5.0.1:62432 on port 1883.
+1662993936: New client connected from 10.5.0.1:62432 as ESP32Client (p2, c1, k15).
+1662993936: Client ESP32Client disconnected.
+1662993939: New connection from 10.5.0.1:64274 on port 1883.
+1662993939: New client connected from 10.5.0.1:64274 as ESP32Client (p2, c1, k15).
+1662993939: Client ESP32Client disconnected.
+1662993942: New connection from 10.5.0.1:64276 on port 1883.
+1662993942: New client connected from 10.5.0.1:64276 as ESP32Client (p2, c1, k15).
+1662993942: Client ESP32Client disconnected.
+1662993945: New connection from 10.5.0.1:64278 on port 1883.
+1662993945: New client connected from 10.5.0.1:64278 as ESP32Client (p2, c1, k15).
+1662993945: Client ESP32Client disconnected.
+1662993949: New connection from 10.5.0.1:62898 on port 1883.
+1662993949: New client connected from 10.5.0.1:62898 as ESP32Client (p2, c1, k15).
+1662993949: Client ESP32Client disconnected.
+1662993953: New connection from 10.5.0.1:62900 on port 1883.
+1662993953: New client connected from 10.5.0.1:62900 as ESP32Client (p2, c1, k15).
+1662993953: Client ESP32Client disconnected.
+1662993956: New connection from 10.5.0.1:62902 on port 1883.
+1662993956: New client connected from 10.5.0.1:62902 as ESP32Client (p2, c1, k15).
+1662993956: Client ESP32Client disconnected.
+1662993959: New connection from 10.5.0.1:64564 on port 1883.
+1662993959: New client connected from 10.5.0.1:64564 as ESP32Client (p2, c1, k15).
+1662993959: Client ESP32Client disconnected.
+1662993962: New connection from 10.5.0.1:64566 on port 1883.
+1662993962: New client connected from 10.5.0.1:64566 as ESP32Client (p2, c1, k15).
+1662993962: Client ESP32Client disconnected.
+1662993966: New connection from 10.5.0.1:64568 on port 1883.
+1662993966: New client connected from 10.5.0.1:64568 as ESP32Client (p2, c1, k15).
+1662993966: Client ESP32Client disconnected.
+1662993969: New connection from 10.5.0.1:59340 on port 1883.
+1662993969: New client connected from 10.5.0.1:59340 as ESP32Client (p2, c1, k15).
+1662993969: Client ESP32Client disconnected.
+1662993972: New connection from 10.5.0.1:59342 on port 1883.
+1662993972: New client connected from 10.5.0.1:59342 as ESP32Client (p2, c1, k15).
+1662993972: Client ESP32Client disconnected.
+1662993975: New connection from 10.5.0.1:59344 on port 1883.
+1662993975: New client connected from 10.5.0.1:59344 as ESP32Client (p2, c1, k15).
+1662993975: Client ESP32Client disconnected.
+1662993979: New connection from 10.5.0.1:57276 on port 1883.
+1662993979: New client connected from 10.5.0.1:57276 as ESP32Client (p2, c1, k15).
+1662993979: Client ESP32Client disconnected.
+1662993982: New connection from 10.5.0.1:57278 on port 1883.
+1662993982: New client connected from 10.5.0.1:57278 as ESP32Client (p2, c1, k15).
+1662993982: Client ESP32Client disconnected.
+1662993985: New connection from 10.5.0.1:57280 on port 1883.
+1662993985: New client connected from 10.5.0.1:57280 as ESP32Client (p2, c1, k15).
+1662993985: Client ESP32Client disconnected.
+1662993989: New connection from 10.5.0.1:63404 on port 1883.
+1662993989: New client connected from 10.5.0.1:63404 as ESP32Client (p2, c1, k15).
+1662993989: Client ESP32Client disconnected.
+1662993992: New connection from 10.5.0.1:63406 on port 1883.
+1662993992: New client connected from 10.5.0.1:63406 as ESP32Client (p2, c1, k15).
+1662993992: Client ESP32Client disconnected.
+1662994024: New connection from 10.5.0.1:59654 on port 1883.
+1662994024: New client connected from 10.5.0.1:59654 as ESP32Client (p2, c1, k15).
+1662994024: Client ESP32Client disconnected.
+1662994032: New connection from 10.5.0.1:61550 on port 1883.
+1662994032: New client connected from 10.5.0.1:61550 as ESP32Client (p2, c1, k15).
+1662994033: Client ESP32Client disconnected.
+1662994041: New connection from 10.5.0.1:59238 on port 1883.
+1662994041: New client connected from 10.5.0.1:59238 as ESP32Client (p2, c1, k15).
+1662994041: Client ESP32Client disconnected.
+1662994049: New connection from 10.5.0.1:57832 on port 1883.
+1662994049: New client connected from 10.5.0.1:57832 as ESP32Client (p2, c1, k15).
+1662994049: Client ESP32Client disconnected.
+1662994058: New connection from 10.5.0.1:65492 on port 1883.
+1662994058: New client connected from 10.5.0.1:65492 as ESP32Client (p2, c1, k15).
+1662994058: Client ESP32Client disconnected.
+1662994066: New connection from 10.5.0.1:65494 on port 1883.
+1662994066: New client connected from 10.5.0.1:65494 as ESP32Client (p2, c1, k15).
+1662994068: Client ESP32Client disconnected.
+1662994074: New connection from 10.5.0.1:65166 on port 1883.
+1662994074: New client connected from 10.5.0.1:65166 as ESP32Client (p2, c1, k15).
+1662994074: Client ESP32Client disconnected.
+1662994082: New connection from 10.5.0.1:55332 on port 1883.
+1662994082: New client connected from 10.5.0.1:55332 as ESP32Client (p2, c1, k15).
+1662994082: Client ESP32Client disconnected.
+1662994113: New connection from 10.5.0.1:61778 on port 1883.
+1662994113: New client connected from 10.5.0.1:61778 as ESP32Client (p2, c1, k15).
+1662994113: Client ESP32Client disconnected.
+1662994122: New connection from 10.5.0.1:55160 on port 1883.
+1662994122: New client connected from 10.5.0.1:55160 as ESP32Client (p2, c1, k15).
+1662994122: Client ESP32Client disconnected.
+1662994132: New connection from 10.5.0.1:59110 on port 1883.
+1662994132: New client connected from 10.5.0.1:59110 as ESP32Client (p2, c1, k15).
+1662994132: Client ESP32Client disconnected.
+1662994141: New connection from 10.5.0.1:55932 on port 1883.
+1662994141: New client connected from 10.5.0.1:55932 as ESP32Client (p2, c1, k15).
+1662994141: Client ESP32Client disconnected.
+1662994149: New connection from 10.5.0.1:64490 on port 1883.
+1662994149: New client connected from 10.5.0.1:64490 as ESP32Client (p2, c1, k15).
+1662994149: Client ESP32Client disconnected.
+1662994157: New connection from 10.5.0.1:56754 on port 1883.
+1662994157: New client connected from 10.5.0.1:56754 as ESP32Client (p2, c1, k15).
+1662994157: Client ESP32Client disconnected.
+1662994166: New connection from 10.5.0.1:56756 on port 1883.
+1662994166: New client connected from 10.5.0.1:56756 as ESP32Client (p2, c1, k15).
+1662994166: Client ESP32Client disconnected.
+1662994175: New connection from 10.5.0.1:60826 on port 1883.
+1662994175: New client connected from 10.5.0.1:60826 as ESP32Client (p2, c1, k15).
+1662994175: Client ESP32Client disconnected.
+1662994185: New connection from 10.5.0.1:57680 on port 1883.
+1662994185: New client connected from 10.5.0.1:57680 as ESP32Client (p2, c1, k15).
+1662994185: Client ESP32Client disconnected.
+1662994193: New connection from 10.5.0.1:62962 on port 1883.
+1662994193: New client connected from 10.5.0.1:62962 as ESP32Client (p2, c1, k15).
+1662994197: Client ESP32Client disconnected.
+1662994201: New connection from 10.5.0.1:56332 on port 1883.
+1662994201: New client connected from 10.5.0.1:56332 as ESP32Client (p2, c1, k15).
+1662994204: Client ESP32Client disconnected.
+1662994210: New connection from 10.5.0.1:59006 on port 1883.
+1662994210: New client connected from 10.5.0.1:59006 as ESP32Client (p2, c1, k15).
+1662994210: Client ESP32Client disconnected.
+1662994218: New connection from 10.5.0.1:57096 on port 1883.
+1662994218: New client connected from 10.5.0.1:57096 as ESP32Client (p2, c1, k15).
+1662994218: Client ESP32Client disconnected.
+1662994227: New connection from 10.5.0.1:57098 on port 1883.
+1662994227: New client connected from 10.5.0.1:57098 as ESP32Client (p2, c1, k15).
+1662994227: Client ESP32Client disconnected.
+1662994235: New connection from 10.5.0.1:59554 on port 1883.
+1662994235: New client connected from 10.5.0.1:59554 as ESP32Client (p2, c1, k15).
+1662994235: Client ESP32Client disconnected.
+1662994244: New connection from 10.5.0.1:62058 on port 1883.
+1662994244: New client connected from 10.5.0.1:62058 as ESP32Client (p2, c1, k15).
+1662994244: Client ESP32Client disconnected.
+1662994252: New connection from 10.5.0.1:62974 on port 1883.
+1662994252: New client connected from 10.5.0.1:62974 as ESP32Client (p2, c1, k15).
+1662994252: Client ESP32Client disconnected.
+1662994260: New connection from 10.5.0.1:61824 on port 1883.
+1662994260: New client connected from 10.5.0.1:61824 as ESP32Client (p2, c1, k15).
+1662994260: Client ESP32Client disconnected.
+1662994269: New connection from 10.5.0.1:64578 on port 1883.
+1662994269: New client connected from 10.5.0.1:64578 as ESP32Client (p2, c1, k15).
+1662994269: Client ESP32Client disconnected.
+1662994277: New connection from 10.5.0.1:64580 on port 1883.
+1662994277: New client connected from 10.5.0.1:64580 as ESP32Client (p2, c1, k15).
+1662994277: Client ESP32Client disconnected.
+1662994285: New connection from 10.5.0.1:57908 on port 1883.
+1662994285: New client connected from 10.5.0.1:57908 as ESP32Client (p2, c1, k15).
+1662994285: Client ESP32Client disconnected.
+1662994294: New connection from 10.5.0.1:57464 on port 1883.
+1662994294: New client connected from 10.5.0.1:57464 as ESP32Client (p2, c1, k15).
+1662994299: Client ESP32Client disconnected.
+1662994310: New connection from 10.5.0.1:58324 on port 1883.
+1662994310: New client connected from 10.5.0.1:58324 as ESP32Client (p2, c1, k15).
+1662994310: Client ESP32Client disconnected.
+1662994319: New connection from 10.5.0.1:60402 on port 1883.
+1662994319: New client connected from 10.5.0.1:60402 as ESP32Client (p2, c1, k15).
+1662994319: Client ESP32Client disconnected.
+1662994328: New connection from 10.5.0.1:57846 on port 1883.
+1662994328: New client connected from 10.5.0.1:57846 as ESP32Client (p2, c1, k15).
+1662994328: Client ESP32Client disconnected.
+1662994336: New connection from 10.5.0.1:57848 on port 1883.
+1662994336: New client connected from 10.5.0.1:57848 as ESP32Client (p2, c1, k15).
+1662994336: Client ESP32Client disconnected.
+1662994344: New connection from 10.5.0.1:60824 on port 1883.
+1662994344: New client connected from 10.5.0.1:60824 as ESP32Client (p2, c1, k15).
+1662994344: Client ESP32Client disconnected.
+1662994354: New connection from 10.5.0.1:59210 on port 1883.
+1662994355: New client connected from 10.5.0.1:59210 as ESP32Client (p2, c1, k15).
+1662994356: Client ESP32Client disconnected.
+1662994364: New connection from 10.5.0.1:60512 on port 1883.
+1662994364: New client connected from 10.5.0.1:60512 as ESP32Client (p2, c1, k15).
+1662994364: Client ESP32Client disconnected.
+1662994373: New connection from 10.5.0.1:61714 on port 1883.
+1662994373: New client connected from 10.5.0.1:61714 as ESP32Client (p2, c1, k15).
+1662994373: Client ESP32Client disconnected.
+1662994381: New connection from 10.5.0.1:62368 on port 1883.
+1662994381: New client connected from 10.5.0.1:62368 as ESP32Client (p2, c1, k15).
+1662994381: Client ESP32Client disconnected.
+1662994389: New connection from 10.5.0.1:63768 on port 1883.
+1662994389: New client connected from 10.5.0.1:63768 as ESP32Client (p2, c1, k15).
+1662994394: Client ESP32Client disconnected.
+1662994398: New connection from 10.5.0.1:55498 on port 1883.
+1662994398: New client connected from 10.5.0.1:55498 as ESP32Client (p2, c1, k15).
+1662994398: Client ESP32Client disconnected.
+1662994407: New connection from 10.5.0.1:57444 on port 1883.
+1662994407: New client connected from 10.5.0.1:57444 as ESP32Client (p2, c1, k15).
+1662994407: Client ESP32Client disconnected.
+1662994416: New connection from 10.5.0.1:57446 on port 1883.
+1662994416: New client connected from 10.5.0.1:57446 as ESP32Client (p2, c1, k15).
+1662994416: Client ESP32Client disconnected.
+1662994425: New connection from 10.5.0.1:65140 on port 1883.
+1662994425: New client connected from 10.5.0.1:65140 as ESP32Client (p2, c1, k15).
+1662994425: Client ESP32Client disconnected.
+1662994433: New connection from 10.5.0.1:62916 on port 1883.
+1662994433: New client connected from 10.5.0.1:62916 as ESP32Client (p2, c1, k15).
+1662994433: Client ESP32Client disconnected.
+1662994441: New connection from 10.5.0.1:55478 on port 1883.
+1662994441: New client connected from 10.5.0.1:55478 as ESP32Client (p2, c1, k15).
+1662994441: Client ESP32Client disconnected.
+1662994449: New connection from 10.5.0.1:60706 on port 1883.
+1662994449: New client connected from 10.5.0.1:60706 as ESP32Client (p2, c1, k15).
+1662994449: Client ESP32Client disconnected.
+1662994458: New connection from 10.5.0.1:58594 on port 1883.
+1662994458: New client connected from 10.5.0.1:58594 as ESP32Client (p2, c1, k15).
+1662994458: Client ESP32Client disconnected.
+1662994466: New connection from 10.5.0.1:58596 on port 1883.
+1662994466: New client connected from 10.5.0.1:58596 as ESP32Client (p2, c1, k15).
+1662994466: Client ESP32Client disconnected.
+1662994475: New connection from 10.5.0.1:62304 on port 1883.
+1662994475: New client connected from 10.5.0.1:62304 as ESP32Client (p2, c1, k15).
+1662994475: Client ESP32Client disconnected.
+1662994483: New connection from 10.5.0.1:61734 on port 1883.
+1662994483: New client connected from 10.5.0.1:61734 as ESP32Client (p2, c1, k15).
+1662994484: Client ESP32Client disconnected.
+1662994492: New connection from 10.5.0.1:55440 on port 1883.
+1662994492: New client connected from 10.5.0.1:55440 as ESP32Client (p2, c1, k15).
+1662994492: Client ESP32Client disconnected.
+1662994500: New connection from 10.5.0.1:57180 on port 1883.
+1662994500: New client connected from 10.5.0.1:57180 as ESP32Client (p2, c1, k15).
+1662994501: Client ESP32Client disconnected.
+1662994509: New connection from 10.5.0.1:63446 on port 1883.
+1662994509: New client connected from 10.5.0.1:63446 as ESP32Client (p2, c1, k15).
+1662994509: Client ESP32Client disconnected.
+1662994517: New connection from 10.5.0.1:57720 on port 1883.
+1662994517: New client connected from 10.5.0.1:57720 as ESP32Client (p2, c1, k15).
+1662994517: Client ESP32Client disconnected.
+1662994526: New connection from 10.5.0.1:57722 on port 1883.
+1662994526: New client connected from 10.5.0.1:57722 as ESP32Client (p2, c1, k15).
+1662994526: Client ESP32Client disconnected.
+1662994534: New connection from 10.5.0.1:56044 on port 1883.
+1662994534: New client connected from 10.5.0.1:56044 as ESP32Client (p2, c1, k15).
+1662994535: Client ESP32Client disconnected.
+1662994543: New connection from 10.5.0.1:60152 on port 1883.
+1662994543: New client connected from 10.5.0.1:60152 as ESP32Client (p2, c1, k15).
+1662994543: Client ESP32Client disconnected.
+1662994551: New connection from 10.5.0.1:62724 on port 1883.
+1662994551: New client connected from 10.5.0.1:62724 as ESP32Client (p2, c1, k15).
+1662994552: Client ESP32Client disconnected.
+1662994560: New connection from 10.5.0.1:55370 on port 1883.
+1662994560: New client connected from 10.5.0.1:55370 as ESP32Client (p2, c1, k15).
+1662994560: Client ESP32Client disconnected.
+1662994568: New connection from 10.5.0.1:58064 on port 1883.
+1662994568: New client connected from 10.5.0.1:58064 as ESP32Client (p2, c1, k15).
+1662994568: Client ESP32Client disconnected.
+1662994577: New connection from 10.5.0.1:58066 on port 1883.
+1662994577: New client connected from 10.5.0.1:58066 as ESP32Client (p2, c1, k15).
+1662994577: Client ESP32Client disconnected.
+1662994585: New connection from 10.5.0.1:63626 on port 1883.
+1662994585: New client connected from 10.5.0.1:63626 as ESP32Client (p2, c1, k15).
+1662994585: Client ESP32Client disconnected.
+1662994593: New connection from 10.5.0.1:62140 on port 1883.
+1662994593: New client connected from 10.5.0.1:62140 as ESP32Client (p2, c1, k15).
+1662994593: Client ESP32Client disconnected.
+1662994601: New connection from 10.5.0.1:61840 on port 1883.
+1662994601: New client connected from 10.5.0.1:61840 as ESP32Client (p2, c1, k15).
+1662994602: Client ESP32Client disconnected.
+1662994610: New connection from 10.5.0.1:55086 on port 1883.
+1662994610: New client connected from 10.5.0.1:55086 as ESP32Client (p2, c1, k15).
+1662994610: Client ESP32Client disconnected.
+1662994618: New connection from 10.5.0.1:58564 on port 1883.
+1662994618: New client connected from 10.5.0.1:58564 as ESP32Client (p2, c1, k15).
+1662994618: Client ESP32Client disconnected.
+1662994626: New connection from 10.5.0.1:58566 on port 1883.
+1662994626: New client connected from 10.5.0.1:58566 as ESP32Client (p2, c1, k15).
+1662994626: Client ESP32Client disconnected.
+1662994634: New connection from 10.5.0.1:60540 on port 1883.
+1662994634: New client connected from 10.5.0.1:60540 as ESP32Client (p2, c1, k15).
+1662994634: Client ESP32Client disconnected.
+1662994643: New connection from 10.5.0.1:56646 on port 1883.
+1662994643: New client connected from 10.5.0.1:56646 as ESP32Client (p2, c1, k15).
+1662994643: Client ESP32Client disconnected.
+1662994651: New connection from 10.5.0.1:61900 on port 1883.
+1662994651: New client connected from 10.5.0.1:61900 as ESP32Client (p2, c1, k15).
+1662994651: Client ESP32Client disconnected.
+1662994659: New connection from 10.5.0.1:65408 on port 1883.
+1662994659: New client connected from 10.5.0.1:65408 as ESP32Client (p2, c1, k15).
+1662994659: Client ESP32Client disconnected.
+1662994668: New connection from 10.5.0.1:64776 on port 1883.
+1662994668: New client connected from 10.5.0.1:64776 as ESP32Client (p2, c1, k15).
+1662994668: Client ESP32Client disconnected.
+1662994677: New connection from 10.5.0.1:64778 on port 1883.
+1662994677: New client connected from 10.5.0.1:64778 as ESP32Client (p2, c1, k15).
+1662994677: Client ESP32Client disconnected.
+1662994685: New connection from 10.5.0.1:59106 on port 1883.
+1662994685: New client connected from 10.5.0.1:59106 as ESP32Client (p2, c1, k15).
+1662994685: Client ESP32Client disconnected.
+1662994693: New connection from 10.5.0.1:55808 on port 1883.
+1662994693: New client connected from 10.5.0.1:55808 as ESP32Client (p2, c1, k15).
+1662994693: Client ESP32Client disconnected.
+1662994707: New connection from 10.5.0.1:59180 on port 1883.
+1662994707: New client connected from 10.5.0.1:59180 as ESP32Client (p2, c1, k15).
+1662994708: Client ESP32Client disconnected.
+1662995032: New connection from 10.5.0.1:59182 on port 1883.
+1662995032: New client connected from 10.5.0.1:59182 as ESP32Client (p2, c1, k15).
+1662995032: Client ESP32Client disconnected.
+1662995040: New connection from 10.5.0.1:64944 on port 1883.
+1662995040: New client connected from 10.5.0.1:64944 as ESP32Client (p2, c1, k15).
+1662995041: Client ESP32Client disconnected.
+1662995048: New connection from 10.5.0.1:62904 on port 1883.
+1662995048: New client connected from 10.5.0.1:62904 as ESP32Client (p2, c1, k15).
+1662995049: Client ESP32Client disconnected.
+1662995057: New connection from 10.5.0.1:56076 on port 1883.
+1662995057: New client connected from 10.5.0.1:56076 as ESP32Client (p2, c1, k15).
+1662995057: Client ESP32Client disconnected.
+1662995065: New connection from 10.5.0.1:61408 on port 1883.
+1662995065: New client connected from 10.5.0.1:61408 as ESP32Client (p2, c1, k15).
+1662995065: Client ESP32Client disconnected.
+1662995073: New connection from 10.5.0.1:65346 on port 1883.
+1662995073: New client connected from 10.5.0.1:65346 as ESP32Client (p2, c1, k15).
+1662995073: Client ESP32Client disconnected.
+1663001967: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1663003767: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1663005566: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1663007366: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1663009166: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1663010965: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1663012765: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1663014565: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1663016364: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1663018164: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1663047520: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1663050049: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1663058061: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1663060491: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1663062290: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1663064896: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1663066696: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1663068923: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1663095512: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1663097311: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1663100975: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1663105042: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1663106841: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1663129973: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1663136410: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1663138342: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1663141683: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1663154843: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1663157044: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1663158856: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1663160656: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1663171451: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1663173251: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1663175051: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1663176851: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1663178650: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1663180450: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1663181731: mosquitto version 2.0.15 terminating
+1663181731: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1663566605: mosquitto version 2.0.15 starting
+1663566605: Config loaded from /mosquitto/config/mosquitto.conf.
+1663566605: Opening ipv4 listen socket on port 1883.
+1663566605: Opening ipv6 listen socket on port 1883.
+1663566605: mosquitto version 2.0.15 running
+1663566649: mosquitto version 2.0.15 terminating
+1663566649: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1663566652: mosquitto version 2.0.15 starting
+1663566652: Config loaded from /mosquitto/config/mosquitto.conf.
+1663566652: Opening ipv4 listen socket on port 1883.
+1663566652: Opening ipv6 listen socket on port 1883.
+1663566652: mosquitto version 2.0.15 running
+1663566835: mosquitto version 2.0.15 terminating
+1663566835: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1663567109: mosquitto version 2.0.15 starting
+1663567109: Config loaded from /mosquitto/config/mosquitto.conf.
+1663567109: Opening ipv4 listen socket on port 1883.
+1663567109: Opening ipv6 listen socket on port 1883.
+1663567109: mosquitto version 2.0.15 running
+1663567282: mosquitto version 2.0.15 terminating
+1663567282: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1663567289: mosquitto version 2.0.15 starting
+1663567289: Config loaded from /mosquitto/config/mosquitto.conf.
+1663567289: Opening ipv4 listen socket on port 1883.
+1663567289: Opening ipv6 listen socket on port 1883.
+1663567289: mosquitto version 2.0.15 running
