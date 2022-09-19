@@ -22,12 +22,16 @@ class datas(models.Model):
 
     # Fields
     sensor = models.ForeignKey(sensor, on_delete = models.CASCADE)	
-    t_stamp =models.BigIntegerField()
-    value = models.BigIntegerField()
+    tStamp =models.BigIntegerField()
+    humidity = models.FloatField(blank = True, null = True)
+    temperature = models.FloatField(blank = True, null = True)
+    airQuality = models.IntegerField(blank = True, null = True)
+    
+
 
     # Metadata
     class Meta:
-        ordering = ['t_stamp']
+        ordering = ['sensor', 'tStamp']
 
     # Methods
     def get_absolute_url(self):
