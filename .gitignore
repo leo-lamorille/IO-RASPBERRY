@@ -2,4 +2,5 @@
 
 .idea
 mosquitto/log/mosquitto.log
+django/dashboard/dashboard/__pycache__
 
