@@ -9,5 +9,11 @@ def admin(request):
 
 def test(request):
     sensorList = sensor.objects.all() # Importe la liste des capteurs {'macAdress', 'naùe, 'interval'}
-    datas = datas.objects.all()  #Importe les datas brutes {'sensor', 't_stamp', 'value'}
-    return render (request, 'dashboard/test.html', {'sensorList':sensorList, 'datas' : datas})
+    datasList = datas.objects.all()  #Importe les datas brutes {'sensor', 't_stamp', 'value'}
+    return render (request, 'dashboard/test.html', {'sensorList':sensorList, 'datas' : datasList})
+
+def createDatas(request):
+    
+    d = datas(sensor_id='00:00:00:00:00:00', tStamp = 1664194977488 , airQuality= 456, humidity = 85, temperature = 20)
+    d.save()
+    return (request)
