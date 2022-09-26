@@ -25,6 +25,9 @@ def createDatas(request):
     timeInterval = [1664143700138, 1664199800138]
 
    
+   ####### DECOMMENTER POUR ACTIVER LA CREATION DE DONNEES 
+   
+    
     # for row in range(timeInterval[0], timeInterval[1], 10000):
     #     airQuality = random.randint(800,850)
     #     temperature = random.randint(15,18)
