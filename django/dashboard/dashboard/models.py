@@ -19,14 +19,12 @@ class sensor(models.Model):
 
 class datas(models.Model):
     """A typical class defining a model, derived from the Model class."""
-
     # Fields
     sensor = models.ForeignKey(sensor, on_delete = models.CASCADE)	
     tStamp =models.BigIntegerField()
     humidity = models.FloatField(blank = True, null = True)
     temperature = models.FloatField(blank = True, null = True)
     airQuality = models.IntegerField(blank = True, null = True)
-    
 
 
     # Metadata
