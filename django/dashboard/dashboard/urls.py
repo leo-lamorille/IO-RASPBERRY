@@ -20,5 +20,6 @@ urlpatterns = [
     path('admin/', views.admin),
     path('dashboard/', views.dashboard),
     path('test/', views.test),
-    path('createDatas/', views.createDatas)
+    path('createDatas/', views.createDatas),
+    path('testGraf/', views.testGraf)
 ]
