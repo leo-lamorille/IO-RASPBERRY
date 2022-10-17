@@ -26,12 +26,12 @@
         </div>
         <div class="container-termometer" style="--temperature-percent: {{temperaturePercent}}%">
             <p class="brightness">
-                {{temperaturePercent}}%
+                {{temperaturePercent}}°C
             </p>
             <img src="{% static "svg/sun.svg" %}" alt="sun illustration"/>
         </div>
         <div class="container-gauge" style="--rotation: {{qualityDeg}}deg">
-            <h1 class="loader__title">{{qualityDeg}}</h1>
+            <h1 class="loader__title">{{qualityDegValue}}</h1>
             <div class="loader"></div>    
         </div>
     </div>

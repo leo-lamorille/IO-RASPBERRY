@@ -5,7 +5,8 @@ import random
 
 import datetime
 def dashboard(request):
-    return render(request, 'dashboard/dashboard.html', {'waterPercent': 45, 'temperaturePercent': 40, 'qualityDeg': 130})
+    data = datas.objects.order_by('-id')[0]
+    return render(request, 'dashboard/dashboard.html', {'waterPercent': int(data.humidity), 'temperaturePercent': int(data.temperature), 'qualityDeg': int(data.airQuality * 180 / 2000), 'qualityDegValue': int(data.airQuality)})
 
 def admin(request):
     return render(request, 'admin/admin.html')
