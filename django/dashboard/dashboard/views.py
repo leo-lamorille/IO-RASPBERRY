@@ -5,7 +5,7 @@ import random
 
 import datetime
 def dashboard(request):
-    return render(request, 'dashboard/dashboard.html')
+    return render(request, 'dashboard/dashboard.html', {'waterPercent': 45, 'temperaturePercent': 40, 'qualityDeg': 130})
 
 def admin(request):
     return render(request, 'admin/admin.html')
