@@ -10,8 +10,12 @@
 </head>
 
 <body>
+    <div>
+      <a href="/testGraf/day/{{dateDepart}}"><button>Jour</button></a>
+      <a href="/testGraf/week/{{dateDepart}}"><button>Semaine</button></a>
+      <a href="/testGraf/month/{{dateDepart}}"><button>Mois</button></a>
+    </div>
    <div id="my-chart">
-
     <table class="charts-css column data-spacing-2 show-labels ">
       <tbody>
         {% for row in humidityDatas %}

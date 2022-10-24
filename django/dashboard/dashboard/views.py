@@ -12,7 +12,7 @@ def admin(request):
     return render(request, 'admin/admin.html')
 
 
-def getDatas(interval, dateDebut) :  # Passer une date en format string YYYY-MM-DD 
+def getDatas(interval, dateDebut) :  # Passer une date en timeStamp 
     # Fonction qui récupère les datas brutes, les traite et renvoi un dict formaté pour utiliser avec le graf
 
     # if type(dateDebut) != "int" : 
@@ -47,7 +47,7 @@ def getDatas(interval, dateDebut) :  # Passer une date en format string YYYY-MM-
             sizeTemp = row.temperature/25 
             sizeAirQ = row.airQuality/2500
             date = datetime.fromtimestamp(row.tStamp)     
-            date = date.strftime("%d/%m/%y : %H")
+            date = date.strftime("%d/%m/%y : %H h")
             if sizeHumidity > 0.85 : 
                 colorH = "#E4766E"
             else : 
@@ -71,7 +71,7 @@ def getDatas(interval, dateDebut) :  # Passer une date en format string YYYY-MM-
 
         
         
-    return {'sensorList':sensorList, 'humidityDatas' : humidityDatas, 'tempDatas' : tempDatas , 'airQDatas':airQDatas}
+    return {'sensorList':sensorList, 'humidityDatas' : humidityDatas, 'tempDatas' : tempDatas , 'airQDatas':airQDatas, 'dateDepart' : dateDebut}
 
 
 def testGraf(request, interval, dateDepart):
