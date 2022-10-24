@@ -14,7 +14,7 @@ def admin(request):
 
 def getDatas(interval, dateDebut) :  # Passer une date en format string YYYY-MM-DD 
     # Fonction qui récupère les datas brutes, les traite et renvoi un dict formaté pour utiliser avec le graf
-    
+
     # if type(dateDebut) != "int" : 
     #     dateDebut = int(dateDebut)
     dateFin = datetime.fromtimestamp(dateDebut)
@@ -43,22 +43,22 @@ def getDatas(interval, dateDebut) :  # Passer une date en format string YYYY-MM-
 
     for rank, row  in enumerate(datasList) : 
         if interval == "day" and  rank%360==0 or interval == "week" and rank%4200 == 0 or interval == "month" and rank %8600 == 0 : 
-            sizeHumidity = row.humidity/100
-            sizeTemp = row.temperature/100 #v
-            sizeAirQ = row.airQuality/10000
+            sizeHumidity = row.humidity/100 # Formules de calcul de la taille colonne 
+            sizeTemp = row.temperature/25 
+            sizeAirQ = row.airQuality/2500
             date = datetime.fromtimestamp(row.tStamp)     
             date = date.strftime("%d/%m/%y : %H")
-            if sizeHumidity > 0.8 : 
+            if sizeHumidity > 0.85 : 
                 colorH = "#E4766E"
             else : 
                 colorH = "#B4D572"
             
-            if sizeTemp> 0.15 : 
+            if sizeTemp> 0.6 :  # Température supérieure à 15°C (15*4/100 = 0.6)
                 colorT = '#E4766E'
             else : 
                 colorT = '#B4D572'
 
-            if sizeAirQ> 0.12 : 
+            if sizeAirQ> 0.48 : # AirQ sup à 1200 (1200*4/10000)
                 colorA = '#E4766E'
             else : 
                 colorA = '#B4D572' 
@@ -76,7 +76,7 @@ def getDatas(interval, dateDebut) :  # Passer une date en format string YYYY-MM-
 
 def testGraf(request):
     #Exemple d'utilisation de getDatas 
-    return render (request, 'testGraf/testGraf.html', getDatas("week",1646179200))
+    return render (request, 'testGraf/testGraf.html', getDatas("day",1646109200))
 
 
 
