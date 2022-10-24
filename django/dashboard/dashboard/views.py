@@ -13,7 +13,8 @@ def admin(request):
 
 
 def getDatas(interval, dateDebut) :  # Passer une date en format string YYYY-MM-DD 
-
+    # Fonction qui récupère les datas brutes, les traite et renvoi un dict formaté pour utiliser avec le graf
+    
     # if type(dateDebut) != "int" : 
     #     dateDebut = int(dateDebut)
     dateFin = datetime.fromtimestamp(dateDebut)
@@ -52,19 +53,20 @@ def getDatas(interval, dateDebut) :  # Passer une date en format string YYYY-MM-
             else : 
                 colorH = "#B4D572"
             
-            if sizeTemp> 0.1 : 
-                colorT = 'red'
+            if sizeTemp> 0.15 : 
+                colorT = '#E4766E'
             else : 
-                colorT = 'blue'
+                colorT = '#B4D572'
 
-            if sizeAirQ> 0.15 : 
-                colorA = 'red'
+            if sizeAirQ> 0.12 : 
+                colorA = '#E4766E'
             else : 
-                colorA = 'blue' 
+                colorA = '#B4D572' 
 
-            humidityDatas.append({'color' : colorH, 'size' : sizeHumidity, 'humidity': row.humidity, 'date' : date, 'showLabel' : showLabel })
-            tempDatas.append({'color': colorT, 'size' : sizeTemp})
-            airQDatas.append({'color': colorA, 'size' : sizeAirQ})
+
+            humidityDatas.append({'color' : colorH, 'size' : sizeHumidity, 'datas': row.humidity, 'date' : date, 'showLabel' : showLabel })
+            tempDatas.append({'color' : colorT, 'size' : sizeTemp, 'datas': row.temperature, 'date' : date, 'showLabel' : showLabel })
+            airQDatas.append({'color' : colorA, 'size' : sizeAirQ, 'datas': row.airQuality, 'date' : date, 'showLabel' : showLabel })
        
 
         
@@ -73,16 +75,9 @@ def getDatas(interval, dateDebut) :  # Passer une date en format string YYYY-MM-
 
 
 def testGraf(request):
-
-
+    #Exemple d'utilisation de getDatas 
     return render (request, 'testGraf/testGraf.html', getDatas("week",1646179200))
 
-
-def test(request):
-    sensorList = sensor.objects.all() # Importe la liste des capteurs {'macAdress', 'naùe, 'interval'}
-    datasList = datas.objects.all()  #Importe les datas brutes {'sensor', 't_stamp', 'value'}
-    renderGraf = testGraf(request)
-    return render (request, 'dashboard/test.html', {'sensorList':sensorList, 'datas' : datasList, 'renderGraf':renderGraf})
 
 
 def createDatas(request):

@@ -17,7 +17,7 @@
         {% for row in humidityDatas %}
             <tr>
               <!-- <th scope="row" class = {{row.showLabel}}> {{row.date}} </th> -->
-              <td style="--size: {{row.size}} ; --color : {{row.color}}">  <span class="tooltip"> Humidité : {{row.humidity}} <br> Date : {{row.date}}</span></td>
+              <td style="--size: {{row.size}} ; --color : {{row.color}}">  <span class="tooltip"> Humidité : {{row.datas}} <br> Date : {{row.date}}</span></td>
             </tr>
         {% endfor %} 
       </tbody>
@@ -25,25 +25,36 @@
     <div class="data-axis"> Humidité (%) </div>
   </div>
 
-    <!-- <table class="charts-css column" id="my-chart">
+  <div id="my-chart">
+
+    <table class="charts-css column data-spacing-2 show-labels ">
       <tbody>
         {% for row in tempDatas %}
             <tr>
-              <td style="--size: {{row.size}}"> </td>
+              <!-- <th scope="row" class = {{row.showLabel}}> {{row.date}} </th> -->
+              <td style="--size: {{row.size}} ; --color : {{row.color}}">  <span class="tooltip"> Température : {{row.datas}} <br> Date : {{row.date}}</span></td>
             </tr>
         {% endfor %} 
-      </tbody> -->
-<!--     
-      <table class="charts-css column " id="my-chart">
-        <tbody>
-          {% for row in airQDatas %}
-              <tr>
-                <td style="--size: {{row.size}} ; --color : {{row.color}} "><span>{{row.size}}</span> </td>
-              </tr>
-          {% endfor %} 
-        </tbody> -->
-
+      </tbody>
     </table>
+    <div class="data-axis"> Température (°C) </div>
+  </div>
+
+  <div id="my-chart">
+
+    <table class="charts-css column data-spacing-2 show-labels ">
+      <tbody>
+        {% for row in airQDatas %}
+            <tr>
+              <!-- <th scope="row" class = {{row.showLabel}}> {{row.date}} </th> -->
+              <td style="--size: {{row.size}} ; --color : {{row.color}}">  <span class="tooltip"> Air Quality : {{row.datas}} <br> Date : {{row.date}}</span></td>
+            </tr>
+        {% endfor %} 
+      </tbody>
+    </table>
+    <div class="data-axis"> AirQ (%) </div>
+  </div>
+
 </body>
 
 </body>
