@@ -20,5 +20,5 @@ urlpatterns = [
     path('admin/', views.admin),
     path('dashboard/', views.dashboard),
     path('createDatas/', views.createDatas),
-    path('testGraf/', views.testGraf)
+    path('testGraf/<str:interval>/<int:dateDepart>', views.testGraf)
 ]

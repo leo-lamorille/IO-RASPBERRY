@@ -74,9 +74,9 @@ def getDatas(interval, dateDebut) :  # Passer une date en format string YYYY-MM-
     return {'sensorList':sensorList, 'humidityDatas' : humidityDatas, 'tempDatas' : tempDatas , 'airQDatas':airQDatas}
 
 
-def testGraf(request):
+def testGraf(request, interval, dateDepart):
     #Exemple d'utilisation de getDatas 
-    return render (request, 'testGraf/testGraf.html', getDatas("day",1646109200))
+    return render (request, 'testGraf/testGraf.html', getDatas(interval,dateDepart))
 
 
 
