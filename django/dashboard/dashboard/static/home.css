@@ -1,0 +1,38 @@
+html {
+  max-width: 100vw;
+}
+
+section {
+  width: 95%;
+  display: grid;
+  grid-template:  
+    'title title title'
+    'icon graph graph' 
+    'icon graph graph'/ 20% 40% 40%;
+}
+
+section > h1 {
+  grid-area: title;
+  text-align: center;
+}
+
+section > div:first-child {
+  grid-area: icon;
+  margin: auto;
+}
+
+
+section > div:last-child {
+  grid-area: graph;
+}
+
+section > .no-data {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+section > .no-data img {
+  height: 100px;
+}

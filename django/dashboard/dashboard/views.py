@@ -1,102 +1,195 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from dashboard.models import sensor, datas
+from django.db.models import Avg
 from django.http import HttpResponse
-import random
 from datetime import datetime, timedelta
+from time import time
+import random
 
-def dashboard(request):
-    data = datas.objects.order_by('-id')[0]
-    return render(request, 'dashboard/dashboard.html', {'waterPercent': int(data.humidity), 'temperaturePercent': int(data.temperature), 'qualityDeg': int(data.airQuality * 180 / 2000), 'qualityDegValue': int(data.airQuality)})
 
-def admin(request):
+def __replace_query_param(request, name, value) -> str:
+    path: str = request.get_full_path()
+    split = path.split('?')
+    query = None
+    if len(split) == 1:
+        return path + '?{name}={value}'.format(name=name, value=value)
+    else:
+        query = split[1]
+    result: str = ""
+    params: str = query.split('&')
+    added: bool = False
+    for param in params:
+        param = param.split('=')
+        param_name = param[0]
+        param_value = param[1]
+        if name == param_name:
+            param_value = value
+            added = True
+        result += "&" if result != "" else ""
+        result += "{name}={value}".format(name=param_name, value=param_value)
+    if not added:
+        result += "&" if result != "" else ""
+        result += "{name}={value}".format(name=name, value=value)
+
+    return "{path}?{query}".format(path=split[0], query=result)
+
+
+def __averages_by_timestamps(timestamp_start, timestamp_stop):
+    averages = datas.objects.filter(tStamp__range=[timestamp_start, timestamp_stop]).aggregate(
+        humidity=Avg('humidity'),
+        airQuality=Avg('airQuality'),
+        temperature=Avg('temperature'),
+        at=Avg('tStamp'))
+    if averages['humidity'] == None:
+        raise Exception('No any data')
+    humidity = int(averages['humidity'])
+    temperature = int(averages['temperature'])
+    airQuality = int(averages['airQuality'])
+    averages.update({
+        'humidity': {
+            'value': humidity,
+            'size': humidity / 100,
+            'color': "#E4766E" if humidity > 85 else "#B4D572"
+        },
+        'temperature': {
+            'value': temperature,
+            'size': temperature / 25,
+            'color': "#E4766E" if temperature > 15 else "#B4D572"
+        },
+        'airQuality': {
+            'value': airQuality,
+            'size': airQuality / 2500,
+            'color': "#E4766E" if airQuality > 1200 else "#B4D572"
+        },
+        'from': datetime.fromtimestamp(timestamp_start),
+        'to': datetime.fromtimestamp(timestamp_stop)
+    })
+    return averages
+
+
+def __append_to_result(r, start, stop, result):
+    for elt in range(r):
+        timestamp_start = start(elt)
+        timestamp_stop = stop(elt)
+        averages = __averages_by_timestamps(
+            timestamp_start, timestamp_stop)
+        result['averages'].append(averages)
+
+
+def __get_datas(interval, start):
+    if type(start) != "int":
+        start = int(start)
+
+    result = {
+        'start': start,
+        'start_date':  datetime.fromtimestamp(start).strftime("%Y-%m-%dT%H:%M"),
+        'averages': []
+    }
+
+    if interval == "hour":
+        def timestamp_start(hour)-> int: return start - (hour + 1) * 60 * 60
+        def timestamp_stop(hour)-> int: return start - hour * 60 * 60
+        r = 24
+
+    elif interval == "day":
+        def timestamp_start(day)-> int: return start - (day + 1) * 24 * 60 * 60
+        def timestamp_stop(day) -> int: return start - day * 24 * 60 * 60
+        r = 7
+    elif interval == "week":
+        def timestamp_start(week) -> int: return start - (week + 1) * 7 * 24 * 60 * 60
+        def timestamp_stop(week) -> int: return start - week * 7 * 24 * 60 * 60
+        r = 10
+    try:
+        __append_to_result(r, timestamp_start, timestamp_stop, result)
+    except:
+        print('No data')
+    return result
+
+
+def home(request):
+    last_data = None
+    try:
+        last_data = datas.objects.order_by('-id')[0]
+    except IndexError:
+        # return no data html
+        return None
+
+    interval = start = settings = None
+    try:
+        interval = request.GET['interval']
+    except KeyError:
+        return redirect(__replace_query_param(request, 'interval', 'day'))
+    try:
+        start = request.GET['start']
+    except KeyError:
+        return redirect(__replace_query_param(request, 'start', int(time())))
+    try:
+        settings = request.GET['settings'] == "True"
+    except KeyError:
+        return redirect(__replace_query_param(request, 'settings', False))
+
+    content: dict = __get_datas(interval, start)
+
+    content.update({
+        'interval': interval,
+        'settings': settings,
+        'waterPercent': int(last_data.humidity),
+        'temperaturePercent': int(last_data.temperature),
+        'qualityDeg': int(last_data.airQuality * 180 / 2000),
+        'qualityDegValue': int(last_data.airQuality),
+        'links': {
+            'hour': __replace_query_param(request, 'interval', 'hour'),
+            'day': __replace_query_param(request, 'interval', 'day'),
+            'week': __replace_query_param(request, 'interval', 'week'),
+            'settings': {
+                'true': __replace_query_param(request, 'settings', 'True'),
+                'false': __replace_query_param(request, 'settings', 'False')
+            }
+        }
+    })
+
+    return render(request, 'home/home.html', content)
     return render(request, 'admin/admin.html')
 
 
-def getDatas(interval, dateDebut) :  # Passer une date en timeStamp 
-    # Fonction qui récupère les datas brutes, les traite et renvoi un dict formaté pour utiliser avec le graf
-
-    # if type(dateDebut) != "int" : 
-    #     dateDebut = int(dateDebut)
-    dateFin = datetime.fromtimestamp(dateDebut)
-    if interval == "day":
-        dateFin = dateFin + timedelta(days=1)
-        dateFin = datetime.timestamp(dateFin)
-        datasList = datas.objects.filter(tStamp__gte=dateDebut, tStamp__lte = dateFin)
-
-    if interval == "week":
-        dateFin = dateFin + timedelta(days=7)
-        dateFin = datetime.timestamp(dateFin)
-        datasList = datas.objects.filter(tStamp__gte=dateDebut, tStamp__lte = dateFin)
-
-    if interval == "month":
-        dateFin = dateFin + timedelta(days = 30)
-        dateFin = datetime.timestamp(dateFin)
-        datasList = datas.objects.filter(tStamp__gte=dateDebut, tStamp__lte = dateFin)
-
-
-
-    sensorList = sensor.objects.all() # Importe la liste des capteurs {'macAdress', 'naùe, 'interval'}
-    humidityDatas = []
-    tempDatas = []
-    airQDatas = []
-    showLabel = "" # Permet d'afficher ou non certains labels date 
-
-    for rank, row  in enumerate(datasList) : 
-        if interval == "day" and  rank%360==0 or interval == "week" and rank%4200 == 0 or interval == "month" and rank %8600 == 0 : 
-            sizeHumidity = row.humidity/100 # Formules de calcul de la taille colonne 
-            sizeTemp = row.temperature/25 
-            sizeAirQ = row.airQuality/2500
-            date = datetime.fromtimestamp(row.tStamp)     
-            date = date.strftime("%d/%m/%y : %H h")
-            if sizeHumidity > 0.85 : 
-                colorH = "#E4766E"
-            else : 
-                colorH = "#B4D572"
-            
-            if sizeTemp> 0.6 :  # Température supérieure à 15°C (15*4/100 = 0.6)
-                colorT = '#E4766E'
-            else : 
-                colorT = '#B4D572'
-
-            if sizeAirQ> 0.48 : # AirQ sup à 1200 (1200*4/10000)
-                colorA = '#E4766E'
-            else : 
-                colorA = '#B4D572' 
-
-
-            humidityDatas.append({'color' : colorH, 'size' : sizeHumidity, 'datas': row.humidity, 'date' : date, 'showLabel' : showLabel })
-            tempDatas.append({'color' : colorT, 'size' : sizeTemp, 'datas': row.temperature, 'date' : date, 'showLabel' : showLabel })
-            airQDatas.append({'color' : colorA, 'size' : sizeAirQ, 'datas': row.airQuality, 'date' : date, 'showLabel' : showLabel })
-       
-
-        
-        
-    return {'sensorList':sensorList, 'humidityDatas' : humidityDatas, 'tempDatas' : tempDatas , 'airQDatas':airQDatas, 'dateDepart' : dateDebut}
-
-
-def testGraf(request, interval, dateDepart):
-    #Exemple d'utilisation de getDatas 
-    return render (request, 'testGraf/testGraf.html', getDatas(interval,dateDepart))
-
-
-
 def createDatas(request):
-    timeInterval = [1646089200, 1649541600]
-    ####### DECOMMENTER POUR ACTIVER LA CREATION DE DONNEES 
+    now = int(time())
+    end = now - 432000000
+    print('Start create data from {now} to {end}'.format(now=now, end=end))
+    timeInterval = [end, now]
+    # DECOMMENTER POUR ACTIVER LA CREATION DE DONNEES
+    html = """
+    <html>
+    <body>
+        <table>
+            <thead>
+                <tr>
+                    <th> air quality </th>
+                    <th> temperature </th>
+                    <th> humidity </th>
+                </tr>
+            </thead>
+            <tbody>
+    """
+    count = 0
+    for row in range(timeInterval[0], timeInterval[1], 1000):
+        if count % 1000 == 0:
+            print('Generated values: ', count)
+        airQuality = random.randint(800, 1500)
+        temperature = random.randint(15, 18)
+        humidity = random.randint(85, 90)
+        d = datas(sensor_id='24:6F:28:24:6B:50', tStamp=row,
+                  airQuality=airQuality, humidity=humidity, temperature=temperature)
+        html += """
+        <tr>
+            <td>{air}</td>
+            <td>{temperature}</td>
+            <td>{humidity}</td>
+        </tr>
+        """.format(air=airQuality, temperature=temperature, humidity=humidity)
+        count += 1
+        d.save()
 
+    html += '</tbody></table></body></html>'
 
-    # for row in range(timeInterval[0], timeInterval[1], 10):
-    #     airQuality = random.randint(800,1500)
-    #     temperature = random.randint(15,18)
-    #     humidity = random.randint(85,90)
-    #     d = datas(sensor_id='24:6F:28:24:6B:50', tStamp = row , airQuality= airQuality, humidity = humidity, temperature = temperature)
-    #     d.save()
-
-    datasList = datas.objects.all()
-    html = "<html><body>"
-    for row in datasList :
-        html += "<div> %s </div>" % str(row.tStamp)
-    html+= '</body></html>'
-      
     return HttpResponse(html)
-

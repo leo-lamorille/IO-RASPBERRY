@@ -1,4 +1,5 @@
-#my-chart {
+.my-chart {
+    width: 90%;
     display: grid;
     align-items: center;
     justify-items: center;
@@ -8,13 +9,13 @@
       "data-axis chart"
       ".         primary-axis";
   }
-  #my-chart > table {
+  .my-chart > table {
     grid-area: chart;
   }
-  #my-chart > .primary-axis {
+  .my-chart > .primary-axis {
     grid-area: primary-axis;
   }
-  #my-chart > .data-axis {
+  .my-chart > .data-axis {
     grid-area: data-axis;
     writing-mode: tb-rl;
     transform: rotateZ(180deg);
