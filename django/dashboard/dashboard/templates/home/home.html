@@ -24,7 +24,6 @@
     <link rel="stylesheet" href="../../static/modal.css" />
   </head>
   <body>
-    
     <header>
       <nav>
         <a href="{{links.sensors}}"><img src="../../static/sensor.png" alt="Sensors" title="Capteurs"/></a>
@@ -54,7 +53,16 @@
             A partir du:
           </label>
           <input id="start" type="datetime-local" value="{{start_date}}" />
-          </div>
+        </div>
+        <div class="sensor">
+          <label for="sensor">
+            Choix du capteur:
+          </label>
+          <select id="sensor" name="sensor" autocomplete="off">
+            {% for s in sensors %}
+              <option value="{{s.macAddress}}" {% if s.macAddress == sensor_target.macAddress %} selected="true" {% endif %} > {{s.name}}</option>
+            {% endfor %}
+          </select>
         </div>
       </div>
     </div>
@@ -198,13 +206,14 @@
     </section>
 
     <script lang="js">
-      const start_input = document.getElementById("start")
-      start_input.addEventListener('focusout', ({ target: {value} })=>{
-        const timestamp = new Date(value).getTime() / 1000;
-        const params = new URLSearchParams(location.search);
-        params.set('start', timestamp)
-        location.href = `?${params.toString()}`
-      })
+      const start_input = document.getElementById("start");
+      if(start_input != null)
+        start_input.addEventListener('focusout', ({ target: {value} })=>{
+          const timestamp = new Date(value).getTime() / 1000;
+          const params = new URLSearchParams(location.search);
+          params.set('start', timestamp)
+          location.href = `?${params.toString()}`
+        });
     </script>
   </body>
 </html>

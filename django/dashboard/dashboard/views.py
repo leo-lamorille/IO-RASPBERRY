@@ -1,6 +1,7 @@
 from django.shortcuts import render, redirect
 from dashboard.models import sensor, datas
 from django.db.models import Avg
+from django.db import connection
 from django.http import HttpResponse
 from datetime import datetime, timedelta
 from time import time
@@ -33,7 +34,7 @@ def __replace_query_param(path, name, value) -> str:
     return "{path}?{query}".format(path=split[0], query=result)
 
 
-def __averages_by_timestamps(timestamp_start, timestamp_stop):
+def __averages_by_timestamps(timestamp_start, timestamp_stop, sensor_target):
     averages = datas.objects.filter(tStamp__range=[timestamp_start, timestamp_stop]).aggregate(
         humidity=Avg('humidity'),
         airQuality=Avg('airQuality'),
@@ -66,16 +67,15 @@ def __averages_by_timestamps(timestamp_start, timestamp_stop):
     return averages
 
 
-def __append_to_result(r, start, stop, result):
+def __append_to_result(r, start, stop, result, sensor_target):
     for elt in range(r):
         timestamp_start = start(elt)
         timestamp_stop = stop(elt)
-        averages = __averages_by_timestamps(
-            timestamp_start, timestamp_stop)
+        averages = __averages_by_timestamps(timestamp_start, timestamp_stop, sensor_target)
         result['averages'].append(averages)
 
 
-def __get_datas(interval, start):
+def __get_datas(interval, start, sensor_target):
     if type(start) != "int":
         start = int(start)
 
@@ -99,7 +99,7 @@ def __get_datas(interval, start):
         def timestamp_stop(week) -> int: return start - week * 7 * 24 * 60 * 60
         r = 10
     try:
-        __append_to_result(r, timestamp_start, timestamp_stop, result)
+        __append_to_result(r, timestamp_start, timestamp_stop, result, sensor_target)
     except:
         print('No data')
     return result
@@ -110,10 +110,9 @@ def home(request):
     try:
         last_data = datas.objects.order_by('-id')[0]
     except IndexError:
-        # return no data html
-        return None
+        last_data = None
 
-    interval = start = settings = None
+    interval = start = settings = sensor_target = None
     try:
         interval = request.GET['interval']
     except KeyError:
@@ -126,16 +125,33 @@ def home(request):
         settings = request.GET['settings'] == "True"
     except KeyError:
         return redirect(__replace_query_param(request.get_full_path(), 'settings', False))
+    try: 
+        sensor_target = request.GET['sensor']
+        sensor_target = sensor.objects.get(macAddress=sensor_target)
+    except KeyError:
+        cursor = connection.cursor()
+        cursor.execute("""
+                        SELECT ds.macAddress AS mac, COUNT(*) AS count
+                            FROM dashboard_sensor AS ds
+                            JOIN dashboard_datas AS dd ON (dd.sensor_id = ds.macAddress)
+                        GROUP BY ds.macAddress
+                        ORDER BY count ASC
+                        LIMIT 1
+                            """)
+        s = cursor.fetchone()
+        return redirect(__replace_query_param(request.get_full_path(), 'sensor', s[0]))
 
-    content: dict = __get_datas(interval, start)
+    content: dict = __get_datas(interval, start, sensor_target)
 
     content.update({
+        'sensor_target': sensor_target,
+        'sensors': sensor.objects.all(),
         'interval': interval,
         'settings': settings,
-        'waterPercent': int(last_data.humidity),
-        'temperaturePercent': int(last_data.temperature),
-        'qualityDeg': int(last_data.airQuality * 180 / 2000),
-        'qualityDegValue': int(last_data.airQuality),
+        'waterPercent': int(last_data.humidity) if last_data is not None else 0,
+        'temperaturePercent': int(last_data.temperature) if last_data is not None else 0,
+        'qualityDeg': int(last_data.airQuality * 180 / 2000) if last_data is not None else 0,
+        'qualityDegValue': int(last_data.airQuality) if last_data is not None else 0,
         'links': {
             'hour': __replace_query_param(request.get_full_path(), 'interval', 'hour'),
             'day': __replace_query_param(request.get_full_path(), 'interval', 'day'),
@@ -213,7 +229,6 @@ def sensors(request):
             'mac': mac,
             'name': name,
             'interval': interval,
-            
             'links': {
                 'sensors':'/sensors',
                 'home': '/'
@@ -225,7 +240,7 @@ def sensors(request):
         for _sensor in content['sensors']:
             delete_link = __replace_query_param('/sensors/delete', 'mac', _sensor.macAddress)
             full_link = __replace_query_param(request.get_full_path(), 'mac', _sensor.macAddress)
-            full_link = __replace_query_param(delete_link, 'name', _sensor.name)
+            full_link = __replace_query_param(full_link, 'name', _sensor.name)
             full_link = __replace_query_param(full_link, 'interval', _sensor.interval)
             _sensors.append({
                 'name': _sensor.name,

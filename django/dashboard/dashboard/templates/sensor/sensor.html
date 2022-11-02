@@ -21,6 +21,14 @@
         <form method="POST">
             {% csrf_token %}
             <div>
+                <label for="sensor_name">
+                    Nom
+                </label>
+                <input id="sensor_name" name="sensor_name" {% if name is not None %}
+                value="{{ name }}" 
+                {% endif %} type="text" title="Ex: Barack Afritt" required/>
+            </div>
+            <div>
                 <label for="sensor_mac">
                     Addresse MAC
                 </label>
@@ -34,14 +42,7 @@
                 title="Ex: 01:23:45:67:89:01" 
                 required/>
             </div>
-            <div>
-                <label for="sensor_name">
-                    Nom
-                </label>
-                <input id="sensor_name" name="sensor_name" {% if name is not None %}
-                value="{{ name }}" 
-                {% endif %} type="text" title="Ex: Barack Afritt" required/>
-            </div>
+
             <div>
                 <label for="sensor_interval">
                     Interval
@@ -50,7 +51,6 @@
                 value="{{ interval }}" 
                 {% endif %} type="number" min="1" required/>
             </div>
-            <input type="checkbox" name="delete" />
             <button type="submit">Valider</button>
         </form>
         <table>
@@ -80,12 +80,12 @@
                     <td>{{sensor.mac}}</td>
                     <td>{{sensor.interval}}</td>
                     <td>
-                        <a href="{{sensor.link.edit}}"><button>Edit</button></a>
-                        <a href="{{sensor.link.delete}}"><button>Delete</button></a>
-                        <script>
-                            document.getElementById(`delete_{{sensor.mac}}`)
-                                .addEventListener('click', (e) => onDelete("{{sensor.link.delete}}"))
-                        </script>
+                        <a href="{{sensor.link.edit}}">
+                            <img src="../../static/edit.png" alt="Modifier sensor {{sensor.mac}}'"/>
+                        </a>
+                        <a href="{{sensor.link.delete}}">
+                            <img src="../../static/trash.png" alt="Supprimer sensor {{sensor.mac}}'"/>
+                        </a>
                     </td>
                 </tr>
                 {% endfor %}

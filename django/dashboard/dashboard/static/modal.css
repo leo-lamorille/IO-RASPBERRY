@@ -96,6 +96,14 @@
      color: white;
  }
  
+ .modal .sensor {
+     display: flex;
+     flex-direction: column;
+     text-align: center;
+     align-items: center;
+     margin-top: 15px;
+ }
+ 
  .modal .start {
      display: flex;
      flex-direction: column;
