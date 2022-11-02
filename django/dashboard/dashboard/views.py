@@ -35,7 +35,7 @@ def __replace_query_param(path, name, value) -> str:
 
 
 def __averages_by_timestamps(timestamp_start, timestamp_stop, sensor_target):
-    averages = datas.objects.filter(tStamp__range=[timestamp_start, timestamp_stop]).aggregate(
+    averages = datas.objects.filter(tStamp__range=[timestamp_start, timestamp_stop]).filter(sensor_id=sensor_target.macAddress).aggregate(
         humidity=Avg('humidity'),
         airQuality=Avg('airQuality'),
         temperature=Avg('temperature'),
@@ -131,15 +131,18 @@ def home(request):
     except KeyError:
         cursor = connection.cursor()
         cursor.execute("""
-                        SELECT ds.macAddress AS mac, COUNT(*) AS count
+                        SELECT ds.macAddress AS mac, COUNT(*) - 1 AS count
                             FROM dashboard_sensor AS ds
-                            JOIN dashboard_datas AS dd ON (dd.sensor_id = ds.macAddress)
+                            LEFT JOIN dashboard_datas AS dd ON (dd.sensor_id = ds.macAddress)
                         GROUP BY ds.macAddress
                         ORDER BY count ASC
                         LIMIT 1
                             """)
-        s = cursor.fetchone()
-        return redirect(__replace_query_param(request.get_full_path(), 'sensor', s[0]))
+        found_sensor = cursor.fetchone()
+        if found_sensor is not None:
+            mac = found_sensor[0]
+            return redirect(__replace_query_param(request.get_full_path(), 'sensor', mac))
+        
 
     content: dict = __get_datas(interval, start, sensor_target)
 
