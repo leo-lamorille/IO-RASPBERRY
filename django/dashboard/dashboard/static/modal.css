@@ -1,0 +1,114 @@
+ /* The Modal (background) */
+ 
+ .modal {
+     position: fixed;
+     /* Stay in place */
+     z-index: 5000;
+     /* Sit on top */
+     left: 0;
+     top: 0;
+     width: 100%;
+     /* Full width */
+     height: 100%;
+     /* Full height */
+     overflow: auto;
+     /* Enable scroll if needed */
+     background-color: rgb(0, 0, 0);
+     /* Fallback color */
+     background-color: rgba(0, 0, 0, 0.4);
+     /* Black w/ opacity */
+ }
+ /* Modal Content/Box */
+ 
+ .modal-content {
+     background-color: #fefefe;
+     margin: 15% auto;
+     /* 15% from the top and centered */
+     padding: 20px;
+     border: 1px solid #888;
+     width: 80%;
+     /* Could be more or less, depending on screen size */
+ }
+ /* The Close Button */
+ 
+ .close {
+     color: #aaa;
+     float: right;
+     font-size: 28px;
+     font-weight: bold;
+ }
+ 
+ .close:hover,
+ .close:focus {
+     color: black;
+     text-decoration: none;
+     cursor: pointer;
+ }
+ 
+ .modal .interval input {
+     display: none;
+ }
+ 
+ .modal .settings .interval {
+     display: grid;
+     grid-template-columns: 33% 33% 33%;
+     align-items: center;
+     justify-content: center;
+ }
+ 
+ .modal .settings a {
+     padding: 10px;
+     text-align: center;
+ }
+ 
+ .modal .settings a:nth-of-type(2n) {
+     border-left: 2px solid black;
+     border-right: 2px solid black;
+ }
+ 
+ .modal .settings a:hover {
+     text-decoration: underline;
+     font-weight: bold;
+ }
+ 
+ .modal .settings a {
+     color: rgb(0, 0, 0);
+     text-decoration: none;
+ }
+ 
+ .modal .settings button {
+     color: black;
+     width: 100%;
+     min-height: 3em;
+     font-size: 1.2em;
+     background-color: white;
+     border: solid 3px black;
+     border-radius: 10px;
+ }
+ 
+ .modal .settings button.selected {
+     color: white;
+     background-color: black;
+ }
+ 
+ .modal .settings input:checked+a {
+     background-color: rgb(50, 50, 50);
+     color: white;
+ }
+ 
+ .modal .sensor {
+     display: flex;
+     flex-direction: column;
+     text-align: center;
+     align-items: center;
+     margin-top: 15px;
+ }
+ 
+ .modal .start {
+     display: flex;
+     flex-direction: column;
+     text-align: center;
+     align-items: center;
+     font-size: large;
+     margin-top: 15px;
+ }

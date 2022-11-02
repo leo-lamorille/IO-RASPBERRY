@@ -1,3 +1,6 @@
 **/__pycache__/
 /mosquitto/log/mosquitto.log
 mariadb_data
+*.log
+*.log
+mosquitto/log/mosquitto.log

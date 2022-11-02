@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Dashboard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="../../static/testGraf.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="../../static/icons.css"
+    />
+    <link rel="stylesheet" href="../../static/charts.min.css" />
+    <link rel="stylesheet" href="../../static/home.css" />
+    <link rel="stylesheet" href="../../static/header.css" />
+    <link rel="stylesheet" href="../../static/modal.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="{{links.sensors}}"><img src="../../static/sensor.png" alt="Sensors" title="Capteurs"/></a>
+        <a href="{{links.settings.true}}"><img src="../../static/settings.png" alt="Settings" title="Paramètres"/></a>
+      </nav>
+    </header>
+    {% if settings %}
+    <div class="modal">
+      <div class="modal-content">
+        <a href="{{links.settings.false}}" class="close">&times;</a>
+        <h2>Paramètres</h2>
+        <div class="settings">
+          <div class="interval">
+            <a href="{{links.hour}}">
+            <button {% if interval == "hour" %} class="selected" {% endif %}>Heure</button>
+            </a>
+            <a href="{{links.day}}">
+              <button {% if interval == "day" %} class="selected" {% endif %}>Jour</button>
+            </a>
+            <a href="{{links.week}}">
+              <button {% if interval == "week" %} class="selected" {% endif %}>Semaine</button>
+            </a>
+          </div>
+        </div>
+        <div class="start">
+          <label for="start">
+            A partir du:
+          </label>
+          <input id="start" type="datetime-local" value="{{start_date}}" />
+        </div>
+        <div class="sensor">
+          <label for="sensor">
+            Choix du capteur:
+          </label>
+          <select id="sensor" name="sensor" autocomplete="off">
+            {% for s in sensors %}
+              <option value="{{s.macAddress}}" {% if s.macAddress == sensor_target.macAddress %} selected="true" {% endif %} > {{s.name}}</option>
+            {% endfor %}
+          </select>
+        </div>
+      </div>
+    </div>
+    {% endif %}
+    <section>
+      <h1>Humidité de l'air</h1>
+      <div
+        class="container-water"
+        style="--water-percent: {{waterPercent}}%; --water-percent-str: '{{waterPercent}}%';"
+      >
+        <div class="water-drop">
+          <svg
+            width="80"
+            height="147"
+            viewBox="0 0 150 217"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+          >
+            <rect width="150" height="217" fill="url(#pattern0)" />
+            <defs>
+              <pattern
+                id="pattern0"
+                patternContentUnits="objectBoundingBox"
+                width="1"
+                height="1"
+              >
+                <use
+                  xlink:href="#image0_1_12"
+                  transform="scale(0.00666667 0.00460829)"
+                />
+              </pattern>
+              <image
+                id="image0_1_12"
+                width="150"
+                height="217"
+                xlink:href="data:image/png;base64,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"
+              />
+            </defs>
+          </svg>
+        </div>
+      </div>
+      {% if averages|length > 0 %}
+      <div class="my-chart">
+        <table class="charts-css column data-spacing-2 show-labels">
+          <tbody>
+            {% for row in averages %}
+            <tr>
+              <td
+                style="--size: {{row.humidity.size}} ; --color : {{row.humidity.color}}"
+              >
+                <span class="tooltip">
+                  Humidité: {{row.humidity.value}}% <br />
+                  Du: {{ row.from }}<br />
+                  Au: {{ row.to }}</span
+                >
+              </td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+        <div class="data-axis">Humidité (%)</div>
+      </div>
+      {% else %}
+      <div class="no-data">
+        <img src="../../static/warning.png" alt="Warning" />
+        <span> Il n'y a aucune donnée dans la base </span>
+      </div>
+      {% endif %}
+    </section>
+    <section>
+      <h1>Température</h1>
+      <div
+        class="container-termometer"
+        style="--temperature-percent: {{temperaturePercent}}%"
+      >
+        <p class="brightness">{{temperaturePercent}}°C</p>
+        <img src="../../static/sun.svg" alt="sun illustration"/>
+      </div>
+      {% if averages|length > 0 %}
+      <div class="my-chart">
+        <table class="charts-css column data-spacing-2 show-labels">
+          <tbody>
+            {% for row in averages %}
+            <tr>
+              <td
+                style="--size: {{row.temperature.size}} ; --color : {{row.temperature.color}}"
+              >
+                <span class="tooltip">
+                  Température: {{row.temperature.value}}°C<br />
+                  Du: {{ row.from }}<br />
+                  Au: {{ row.to }}</span
+                >
+              </td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+        <div class="data-axis">Température (°C)</div>
+      </div>
+      {% else %}
+      <div class="no-data">
+        <img src="../../static/warning.png" alt="Warning" />
+        <span> Il n'y a aucune donnée dans la base </span>
+      </div>
+      {% endif %}
+    </section>
+    <section>
+      <h1>Qualité de l'air</h1>
+      <div class="container-gauge" style="--rotation: {{qualityDeg}}deg">
+        <h1 class="loader__title">{{qualityDegValue}}</h1>
+        <div class="loader"></div>
+      </div>
+      {% if averages|length > 0 %}
+      <div class="my-chart">
+        <table class="charts-css column data-spacing-2 show-labels">
+          <tbody>
+            {% for row in averages %}
+            <tr>
+              <td
+                style="--size: {{row.airQuality.size}} ; --color : {{row.airQuality.color}}"
+              >
+                <span class="tooltip">
+                  Taux: {{row.airQuality.value}} <br />
+                  Du: {{ row.from }}<br />
+                  Au: {{ row.to }}</span
+                >
+              </td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+        <div class="data-axis">Qualité de l'air</div>
+      </div>
+      {% else %}
+      <div class="no-data">
+        <img src="../../static/warning.png" alt="Warning" />
+        <span> Il n'y a aucune donnée dans la base </span>
+      </div>
+      {% endif %}
+    </section>
+
+    <script lang="js">
+      const start_input = document.getElementById("start");
+      if(start_input != null)
+        start_input.addEventListener('focusout', ({ target: {value} })=>{
+          const timestamp = new Date(value).getTime() / 1000;
+          const params = new URLSearchParams(location.search);
+          params.set('start', timestamp)
+          location.href = `?${params.toString()}`
+        });
+    </script>
+  </body>
+</html>

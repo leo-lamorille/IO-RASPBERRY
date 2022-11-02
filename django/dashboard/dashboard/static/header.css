@@ -1,0 +1,12 @@
+nav {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    right: 2em;
+    top: 1em;
+}
+
+header img {
+    max-height: 50px;
+    padding: 0 0.5em;
+}
