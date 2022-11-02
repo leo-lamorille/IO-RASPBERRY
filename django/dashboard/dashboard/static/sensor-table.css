@@ -29,3 +29,7 @@ table tbody tr:nth-child(2n+1) {
 table img {
     height: 1.5em;
 }
+
+table thead tr {
+    border-bottom: solid 2px black;
+}

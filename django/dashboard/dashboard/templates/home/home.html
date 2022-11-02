@@ -59,9 +59,12 @@
             Choix du capteur:
           </label>
           <select id="sensor" name="sensor" autocomplete="off">
-            {% for s in sensors %}
-              <option value="{{s.macAddress}}" {% if s.macAddress == sensor_target.macAddress %} selected="true" {% endif %} > {{s.name}}</option>
-            {% endfor %}
+            <option value="" disabled selected="true">Veuillez choisir un capteur</option>
+            {% if sensor_target is not None %}
+              {% for s in sensors %}
+                <option value="{{s.macAddress}}" {% if s.macAddress == sensor_target.macAddress %} selected="true" {% endif %} > {{s.name}}</option>
+              {% endfor %}
+            {% endif %}
           </select>
         </div>
       </div>
@@ -129,7 +132,11 @@
       {% else %}
       <div class="no-data">
         <img src="../../static/warning.png" alt="Warning" />
-        <span> Il n'y a aucune donnée dans la base </span>
+        {% if sensor_target is not None %}
+        <span> Il n'y a aucune donnée dans la base pour {{sensor_target.name}}({{sensor_target.macAddress}}) </span>
+        {% else %}
+        <span> Il n'y a aucun capteur dans la base de donnée.</span>
+        {% endif %}
       </div>
       {% endif %}
     </section>
@@ -166,7 +173,12 @@
       {% else %}
       <div class="no-data">
         <img src="../../static/warning.png" alt="Warning" />
-        <span> Il n'y a aucune donnée dans la base </span>
+        {% if sensor_target is not None %}
+        <span> Il n'y a aucune donnée dans la base pour {{sensor_target.name}}({{sensor_target.macAddress}}) </span>
+        {% else %}
+        <span> Il n'y a aucun capteur dans la base de donnée.</span>
+        {% endif %}
+
       </div>
       {% endif %}
     </section>
@@ -200,7 +212,11 @@
       {% else %}
       <div class="no-data">
         <img src="../../static/warning.png" alt="Warning" />
-        <span> Il n'y a aucune donnée dans la base </span>
+        {% if sensor_target is not None %}
+        <span> Il n'y a aucune donnée dans la base pour {{sensor_target.name}}({{sensor_target.macAddress}}) </span>
+        {% else %}
+        <span> Il n'y a aucun capteur dans la base de donnée.</span>
+        {% endif %}
       </div>
       {% endif %}
     </section>
@@ -213,6 +229,15 @@
           const params = new URLSearchParams(location.search);
           params.set('start', timestamp)
           location.href = `?${params.toString()}`
+        });
+      const sensor_select = document.getElementById("sensor");
+      if(sensor_select != null)
+      sensor_select.addEventListener('change', ({ target: {value} })=>{
+          const params = new URLSearchParams(location.search);
+          params.set('sensor', value);
+          console.log(`?${params.toString()}`);
+          
+          location.href = `?${params.toString()}`;
         });
     </script>
   </body>
