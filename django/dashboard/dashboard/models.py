@@ -11,11 +11,16 @@ class sensor(models.Model):
     #Meta
     class Meta:
         ordering = ['name']
-
+        
+    @classmethod
+    def create(cls, macAddress, name, interval):
+        book = cls(macAddress = macAddress, name = name, interval = interval)
+        return book
     
     #Methods 
     def __str__(self):
         return self.name
+    
 
 class datas(models.Model):
     """A typical class defining a model, derived from the Model class."""

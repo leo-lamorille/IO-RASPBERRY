@@ -18,5 +18,7 @@ from dashboard import views
 
 urlpatterns = [
     path('', views.home),
+    path('sensors/', views.sensors),
+    path('sensors/delete', views.delete),
     path('createDatas/', views.createDatas)
 ]

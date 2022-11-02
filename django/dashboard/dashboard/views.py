@@ -7,8 +7,7 @@ from time import time
 import random
 
 
-def __replace_query_param(request, name, value) -> str:
-    path: str = request.get_full_path()
+def __replace_query_param(path, name, value) -> str:
     split = path.split('?')
     query = None
     if len(split) == 1:
@@ -118,15 +117,15 @@ def home(request):
     try:
         interval = request.GET['interval']
     except KeyError:
-        return redirect(__replace_query_param(request, 'interval', 'day'))
+        return redirect(__replace_query_param(request.get_full_path(), 'interval', 'day'))
     try:
         start = request.GET['start']
     except KeyError:
-        return redirect(__replace_query_param(request, 'start', int(time())))
+        return redirect(__replace_query_param(request.get_full_path(), 'start', int(time())))
     try:
         settings = request.GET['settings'] == "True"
     except KeyError:
-        return redirect(__replace_query_param(request, 'settings', False))
+        return redirect(__replace_query_param(request.get_full_path(), 'settings', False))
 
     content: dict = __get_datas(interval, start)
 
@@ -138,18 +137,18 @@ def home(request):
         'qualityDeg': int(last_data.airQuality * 180 / 2000),
         'qualityDegValue': int(last_data.airQuality),
         'links': {
-            'hour': __replace_query_param(request, 'interval', 'hour'),
-            'day': __replace_query_param(request, 'interval', 'day'),
-            'week': __replace_query_param(request, 'interval', 'week'),
+            'hour': __replace_query_param(request.get_full_path(), 'interval', 'hour'),
+            'day': __replace_query_param(request.get_full_path(), 'interval', 'day'),
+            'week': __replace_query_param(request.get_full_path(), 'interval', 'week'),
+            'sensors':'/sensors',
             'settings': {
-                'true': __replace_query_param(request, 'settings', 'True'),
-                'false': __replace_query_param(request, 'settings', 'False')
+                'true': __replace_query_param(request.get_full_path(), 'settings', 'True'),
+                'false': __replace_query_param(request.get_full_path(), 'settings', 'False')
             }
         }
     })
 
     return render(request, 'home/home.html', content)
-    return render(request, 'admin/admin.html')
 
 
 def createDatas(request):
@@ -193,3 +192,72 @@ def createDatas(request):
     html += '</tbody></table></body></html>'
 
     return HttpResponse(html)
+
+def sensors(request):
+    if request.method == "GET":
+        interval = mac = name = None
+        try:
+            mac = request.GET['mac']
+        except KeyError:
+            print()
+        try:
+            name = request.GET['name']
+        except KeyError:
+            print()
+        try:
+            interval = request.GET['interval']
+        except KeyError:
+            print()
+        
+        content: dict = {
+            'mac': mac,
+            'name': name,
+            'interval': interval,
+            
+            'links': {
+                'sensors':'/sensors',
+                'home': '/'
+            }
+        }
+        
+        content['sensors'] = sensor.objects.all()
+        _sensors = []
+        for _sensor in content['sensors']:
+            delete_link = __replace_query_param('/sensors/delete', 'mac', _sensor.macAddress)
+            full_link = __replace_query_param(request.get_full_path(), 'mac', _sensor.macAddress)
+            full_link = __replace_query_param(delete_link, 'name', _sensor.name)
+            full_link = __replace_query_param(full_link, 'interval', _sensor.interval)
+            _sensors.append({
+                'name': _sensor.name,
+                'mac': _sensor.macAddress,
+                'interval': _sensor.interval,
+                'link': {
+                    'edit': full_link,
+                    'delete': delete_link
+                }
+            })
+        content['sensors'] = _sensors
+        content.update({
+            'test': str(content)
+        })
+  
+        return render(request, 'sensor/sensor.html', content)
+    
+    elif request.method == "POST":
+        mac = request.POST.get('sensor_mac')
+        name = request.POST.get('sensor_name')
+        interval = request.POST.get('sensor_interval')
+        s = sensor.create(mac, name, interval)
+        s.save()
+        return redirect('/sensors')
+
+    
+def delete(request):
+    mac = None
+    try:
+        mac = request.GET['mac']
+    except KeyError:
+        return redirect('/sensors')
+    sensor.objects.get(macAddress=mac).delete()
+    return redirect('/sensors')
+        
